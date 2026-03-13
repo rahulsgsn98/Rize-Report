@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","14074","Verify that the welcome dashboard heading is displayed","chromium","2026-03-12","passed","2026-03-12","","reportdashboard.spec.ts","",""
+"","21686","Verify logout visibility and perform logout","chromium","2026-03-12","passed","2026-03-12","","reportdashboard.spec.ts","",""
+"","2673","authenticate","setup","2026-03-12","passed","2026-03-12","","auth.setup.ts","",""
+"","49338","Verify email and get the email from the profile dropdown","chromium","2026-03-12","passed","2026-03-12","","reportdashboard.spec.ts","",""
