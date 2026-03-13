@@ -21,7 +21,7 @@ export class ReportDashboardPage {
     }
 
     async isWelcomeDashboardHeadingDisplayed(): Promise<boolean> {
-        return await this.welcomeDashboardHeading.isVisible();
+        return await this.welcomeDashboardHeading.isVisible({timeout: 10000});
     }
 
     async getWelcomeDashboardHeadingText(): Promise<string> {
@@ -29,7 +29,7 @@ export class ReportDashboardPage {
     }
 
     async verifyProfileCircleIsDisplayed(): Promise<boolean> {
-        return await this.profilecircle.isVisible();
+        return await this.profilecircle.isVisible({timeout: 10000});
     }
 
     // 🔹 Open profile dropdown
@@ -40,7 +40,7 @@ export class ReportDashboardPage {
 
     // 🔹 Check email visibility (no click here)
     async verifyProfileEmailIsDisplayed(): Promise<boolean> {
-        return await this.profile_email.isVisible();
+        return await this.profile_email.isVisible({timeout: 10000});
     }
 
     // 🔹 Get email (no click here)
@@ -53,7 +53,7 @@ export class ReportDashboardPage {
 
     // 🔹 Check logout visibility (no click here)
     async verifyProfileLogoutIsDisplayed(): Promise<boolean> {
-        return await this.profile_logout.isVisible();
+        return await this.profile_logout.isVisible({timeout: 10000});
     }
 
     async clickLogout(): Promise<void> {

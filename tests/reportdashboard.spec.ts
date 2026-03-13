@@ -57,3 +57,6 @@ test('Verify email and get the email from the profile dropdown', async ({page}) 
     console.log('Logout successful, current page title:', await page.title());
 }); */
 
+
+
+
