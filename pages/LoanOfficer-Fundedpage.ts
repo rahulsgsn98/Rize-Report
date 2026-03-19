@@ -22,6 +22,9 @@ export class LoanOfficerFundedPage {
   readonly selectyeardropdowndesktop: Locator;
   readonly selectyeardropdownmobile: Locator;
 
+
+  readonly clearButton: Locator;
+
   constructor(page: Page) {
     this.page = page;
 
@@ -49,10 +52,31 @@ export class LoanOfficerFundedPage {
     this.selectyeardropdowndesktop = page.locator('div.dropdown')
 
     this.selectyeardropdownmobile = page.locator('i.fa-solid.fa-calendar-days:visible');
+
+
+    this.clearButton = page.getByRole('button', { name: /Clear/i });
   }
 
 
+// click on clear button to reset filters
+async clickClear(): Promise<void> {
+  // mobile 
+  this.page.waitForLoadState('networkidle'); // ensure any ongoing loads are done
+  if (await this.openFilterButton.isVisible({ timeout: 5000 })) {
+    await this.openFilterButton.click({force: true});
+  }
+  // Click the Clear button
+   await expect(this.clearButton).toBeVisible({ timeout: 5000 });
+  await expect(this.clearButton).toBeEnabled({ timeout: 5000 });
+  
 
+
+  await this.clearButton.click({force: true});
+
+  console.log("🧹 Clear button clicked, filters reset");
+}
+
+// check fil
 
 
 

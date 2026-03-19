@@ -14,9 +14,9 @@ test.beforeEach(async ({ page }) => {
     config = new TestConfig();
     await page.goto(config.appUrl);
 
-    await page.waitForLoadState('domcontentloaded');
+    await page.waitForLoadState('networkidle');
 
-})
+});
 
 
 

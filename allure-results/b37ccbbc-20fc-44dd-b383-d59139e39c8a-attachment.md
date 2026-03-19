@@ -1,0 +1,1063 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button [ref=e7] [cursor=pointer]
+      - img "Rize Logo" [ref=e9]
+    - generic [ref=e12] [cursor=pointer]: AA
+  - complementary [ref=e13]
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - generic [ref=e23]:
+            - heading "LOAN OFFICER FUNDED" [level=4] [ref=e24]
+            - generic [ref=e27]: 03-16-2026 04:00 AM
+          - button "Open Filters" [ref=e28] [cursor=pointer]
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - heading "Apply Filters" [level=4] [ref=e33]
+            - button "Close" [ref=e40] [cursor=pointer]: ✕
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43]: Division Name
+              - combobox [ref=e44]:
+                - generic [ref=e46]:
+                  - textbox "-searchbox":
+                    - /placeholder: Select option
+                  - generic [ref=e47]: Select option
+                - listbox [ref=e48]:
+                  - option "Natalie Premock" [ref=e49]:
+                    - generic [ref=e50] [cursor=pointer]: Natalie Premock
+                  - option "Andres Pumariega" [ref=e51]:
+                    - generic [ref=e52] [cursor=pointer]: Andres Pumariega
+                  - option "Cesar Del Collado" [ref=e53]:
+                    - generic [ref=e54] [cursor=pointer]: Cesar Del Collado
+                  - option "Nicolas Garazo" [ref=e55]:
+                    - generic [ref=e56] [cursor=pointer]: Nicolas Garazo
+                  - option "Curt Bogle" [ref=e57]:
+                    - generic [ref=e58] [cursor=pointer]: Curt Bogle
+                  - option "Shirley Deloach" [ref=e59]:
+                    - generic [ref=e60] [cursor=pointer]: Shirley Deloach
+                  - option "John Diaz" [ref=e61]:
+                    - generic [ref=e62] [cursor=pointer]: John Diaz
+                  - option "Cesar Suarez" [ref=e63]:
+                    - generic [ref=e64] [cursor=pointer]: Cesar Suarez
+                  - option "Ashley Mock" [ref=e65]:
+                    - generic [ref=e66] [cursor=pointer]: Ashley Mock
+                  - option "Irina Castro" [ref=e67]:
+                    - generic [ref=e68] [cursor=pointer]: Irina Castro
+                  - option "William Green" [ref=e69]:
+                    - generic [ref=e70] [cursor=pointer]: William Green
+                  - option "Rafael Almodovar" [ref=e71]:
+                    - generic [ref=e72] [cursor=pointer]: Rafael Almodovar
+                  - option "Steve Austin" [ref=e73]:
+                    - generic [ref=e74] [cursor=pointer]: Steve Austin
+                  - option "Abelardo Barreto" [ref=e75]:
+                    - generic [ref=e76] [cursor=pointer]: Abelardo Barreto
+                  - option "Frank Armas" [ref=e77]:
+                    - generic [ref=e78] [cursor=pointer]: Frank Armas
+                  - option "Jorge Vazquez" [ref=e79]:
+                    - generic [ref=e80] [cursor=pointer]: Jorge Vazquez
+                  - option "Jason Caballero" [ref=e81]:
+                    - generic [ref=e82] [cursor=pointer]: Jason Caballero
+                  - option "Orestes Cruz" [ref=e83]:
+                    - generic [ref=e84] [cursor=pointer]: Orestes Cruz
+                  - option "Nelson Lopez" [ref=e85]:
+                    - generic [ref=e86] [cursor=pointer]: Nelson Lopez
+                  - option "Ramon Plasencia" [ref=e87]:
+                    - generic [ref=e88] [cursor=pointer]: Ramon Plasencia
+                  - option "Meibol Torres" [ref=e89]:
+                    - generic [ref=e90] [cursor=pointer]: Meibol Torres
+                  - option "Freddy Cova" [ref=e91]:
+                    - generic [ref=e92] [cursor=pointer]: Freddy Cova
+                  - option "Armando Cova" [ref=e93]:
+                    - generic [ref=e94] [cursor=pointer]: Armando Cova
+                  - option "Keiber Martinez" [ref=e95]:
+                    - generic [ref=e96] [cursor=pointer]: Keiber Martinez
+                  - option "Christopher Goodman" [ref=e97]:
+                    - generic [ref=e98] [cursor=pointer]: Christopher Goodman
+                  - option "Julio Paneto" [ref=e99]:
+                    - generic [ref=e100] [cursor=pointer]: Julio Paneto
+                  - option "Marianela Muniz" [ref=e101]:
+                    - generic [ref=e102] [cursor=pointer]: Marianela Muniz
+                  - option "Sandra Cobo" [ref=e103]:
+                    - generic [ref=e104] [cursor=pointer]: Sandra Cobo
+                  - option "Ciro Hernandez" [ref=e105]:
+                    - generic [ref=e106] [cursor=pointer]: Ciro Hernandez
+                  - option "Cristian Orellana" [ref=e107]:
+                    - generic [ref=e108] [cursor=pointer]: Cristian Orellana
+                  - option "Julian De La Rosa Marcano" [ref=e109]:
+                    - generic [ref=e110] [cursor=pointer]: Julian De La Rosa Marcano
+                  - option "Nelson Gonzalez" [ref=e111]:
+                    - generic [ref=e112] [cursor=pointer]: Nelson Gonzalez
+                  - option "Steve Elliott" [ref=e113]:
+                    - generic [ref=e114] [cursor=pointer]: Steve Elliott
+                  - option "Celeste Villar" [ref=e115]:
+                    - generic [ref=e116] [cursor=pointer]: Celeste Villar
+                  - option "Judith Wallace" [ref=e117]:
+                    - generic [ref=e118] [cursor=pointer]: Judith Wallace
+                  - option "Lisa Rochester" [ref=e119]:
+                    - generic [ref=e120] [cursor=pointer]: Lisa Rochester
+                  - option "Maria Rossi" [ref=e121]:
+                    - generic [ref=e122] [cursor=pointer]: Maria Rossi
+                  - option "Marla Melendez" [ref=e123]:
+                    - generic [ref=e124] [cursor=pointer]: Marla Melendez
+                  - option "Yudith Figueroa" [ref=e125]:
+                    - generic [ref=e126] [cursor=pointer]: Yudith Figueroa
+                  - option "Jake Adler" [ref=e127]:
+                    - generic [ref=e128] [cursor=pointer]: Jake Adler
+                  - option "Nicholas LeLoudis" [ref=e129]:
+                    - generic [ref=e130] [cursor=pointer]: Nicholas LeLoudis
+                  - option "Patrick Driscoll" [ref=e131]:
+                    - generic [ref=e132] [cursor=pointer]: Patrick Driscoll
+                  - option "Candece Cavalieri" [ref=e133]:
+                    - generic [ref=e134] [cursor=pointer]: Candece Cavalieri
+                  - option "Charli Wambolt Duarte" [ref=e135]:
+                    - generic [ref=e136] [cursor=pointer]: Charli Wambolt Duarte
+                  - option "Michael Cathey" [ref=e137]:
+                    - generic [ref=e138] [cursor=pointer]: Michael Cathey
+                  - option "Samantha Harding" [ref=e139]:
+                    - generic [ref=e140] [cursor=pointer]: Samantha Harding
+                  - option "Roberto Farid" [ref=e141]:
+                    - generic [ref=e142] [cursor=pointer]: Roberto Farid
+                  - option "Jane McCarthy" [ref=e143]:
+                    - generic [ref=e144] [cursor=pointer]: Jane McCarthy
+                  - option "Leticia Fazio" [ref=e145]:
+                    - generic [ref=e146] [cursor=pointer]: Leticia Fazio
+                  - option "Alberto Hernandez" [ref=e147]:
+                    - generic [ref=e148] [cursor=pointer]: Alberto Hernandez
+                  - option "Tomas Lamas" [ref=e149]:
+                    - generic [ref=e150] [cursor=pointer]: Tomas Lamas
+                  - option "Colleen Rudnick" [ref=e151]:
+                    - generic [ref=e152] [cursor=pointer]: Colleen Rudnick
+                  - option "Gera Durand" [ref=e153]:
+                    - generic [ref=e154] [cursor=pointer]: Gera Durand
+                  - option "Jamie Rogers" [ref=e155]:
+                    - generic [ref=e156] [cursor=pointer]: Jamie Rogers
+                  - option "Chad Reidlinger" [ref=e157]:
+                    - generic [ref=e158] [cursor=pointer]: Chad Reidlinger
+                  - option "John Horton" [ref=e159]:
+                    - generic [ref=e160] [cursor=pointer]: John Horton
+                  - option "David Luczkow" [ref=e161]:
+                    - generic [ref=e162] [cursor=pointer]: David Luczkow
+                  - option "Maged Daniel" [ref=e163]:
+                    - generic [ref=e164] [cursor=pointer]: Maged Daniel
+                  - option "Nayla Santa Rosa" [ref=e165]:
+                    - generic [ref=e166] [cursor=pointer]: Nayla Santa Rosa
+                  - option "Robert Raiche" [ref=e167]:
+                    - generic [ref=e168] [cursor=pointer]: Robert Raiche
+                  - option "Ariel Huynh" [ref=e169]:
+                    - generic [ref=e170] [cursor=pointer]: Ariel Huynh
+                  - option "Michael McLaughlin" [ref=e171]:
+                    - generic [ref=e172] [cursor=pointer]: Michael McLaughlin
+                  - option "Ivan Cardenas" [ref=e173]:
+                    - generic [ref=e174] [cursor=pointer]: Ivan Cardenas
+                  - option "Carrie Polys" [ref=e175]:
+                    - generic [ref=e176] [cursor=pointer]: Carrie Polys
+                  - option "Katie Harper" [ref=e177]:
+                    - generic [ref=e178] [cursor=pointer]: Katie Harper
+                  - option "Apolonia Sanmartin" [ref=e179]:
+                    - generic [ref=e180] [cursor=pointer]: Apolonia Sanmartin
+                  - option "Arnold Roopchand" [ref=e181]:
+                    - generic [ref=e182] [cursor=pointer]: Arnold Roopchand
+                  - option "Juan Velasquez" [ref=e183]:
+                    - generic [ref=e184] [cursor=pointer]: Juan Velasquez
+                  - option "Julian Avila" [ref=e185]:
+                    - generic [ref=e186] [cursor=pointer]: Julian Avila
+                  - option "James Stout" [ref=e187]:
+                    - generic [ref=e188] [cursor=pointer]: James Stout
+                  - option "Jessica Dacosta" [ref=e189]:
+                    - generic [ref=e190] [cursor=pointer]: Jessica Dacosta
+                  - option "Jessica Dacosta" [ref=e191]:
+                    - generic [ref=e192] [cursor=pointer]: Jessica Dacosta
+                  - option "Lizeth Lagomarcino Papaleo" [ref=e193]:
+                    - generic [ref=e194] [cursor=pointer]: Lizeth Lagomarcino Papaleo
+                  - option "Lorena Lagares" [ref=e195]:
+                    - generic [ref=e196] [cursor=pointer]: Lorena Lagares
+                  - option "Talita Camilo" [ref=e197]:
+                    - generic [ref=e198] [cursor=pointer]: Talita Camilo
+                  - option "Thiago Habib Monteiro" [ref=e199]:
+                    - generic [ref=e200] [cursor=pointer]: Thiago Habib Monteiro
+                  - option "Andres Guerrero" [ref=e201]:
+                    - generic [ref=e202] [cursor=pointer]: Andres Guerrero
+                  - option "Maria Barbosa" [ref=e203]:
+                    - generic [ref=e204] [cursor=pointer]: Maria Barbosa
+                  - option "Nataliya Maduro" [ref=e205]:
+                    - generic [ref=e206] [cursor=pointer]: Nataliya Maduro
+                  - option "Maria Helena Barbosa" [ref=e207]:
+                    - generic [ref=e208] [cursor=pointer]: Maria Helena Barbosa
+                  - option "Jules Godin" [ref=e209]:
+                    - generic [ref=e210] [cursor=pointer]: Jules Godin
+                  - option "Hugo Riano" [ref=e211]:
+                    - generic [ref=e212] [cursor=pointer]: Hugo Riano
+                  - option "Belkis Moore" [ref=e213]:
+                    - generic [ref=e214] [cursor=pointer]: Belkis Moore
+                  - option "Andrea Baldini" [ref=e215]:
+                    - generic [ref=e216] [cursor=pointer]: Andrea Baldini
+                  - option "Andrea Baldini" [ref=e217]:
+                    - generic [ref=e218] [cursor=pointer]: Andrea Baldini
+                  - option "Hernan Feria" [ref=e219]:
+                    - generic [ref=e220] [cursor=pointer]: Hernan Feria
+                  - option "Mayra Bermudez" [ref=e221]:
+                    - generic [ref=e222] [cursor=pointer]: Mayra Bermudez
+                  - option "Cesar Delgado" [ref=e223]:
+                    - generic [ref=e224] [cursor=pointer]: Cesar Delgado
+                  - option "Malik Shalmiyev" [ref=e225]:
+                    - generic [ref=e226] [cursor=pointer]: Malik Shalmiyev
+                  - option "Rocio Portella Lopez" [ref=e227]:
+                    - generic [ref=e228] [cursor=pointer]: Rocio Portella Lopez
+                  - option "Kerry Salvanto" [ref=e229]:
+                    - generic [ref=e230] [cursor=pointer]: Kerry Salvanto
+                  - option "Anna Valdez" [ref=e231]:
+                    - generic [ref=e232] [cursor=pointer]: Anna Valdez
+                  - option "Dennis Hernandez" [ref=e233]:
+                    - generic [ref=e234] [cursor=pointer]: Dennis Hernandez
+                  - option "Tathiana Schulze" [ref=e235]:
+                    - generic [ref=e236] [cursor=pointer]: Tathiana Schulze
+                  - option "Carlos Torres" [ref=e237]:
+                    - generic [ref=e238] [cursor=pointer]: Carlos Torres
+                  - option "Luis Arizaga" [ref=e239]:
+                    - generic [ref=e240] [cursor=pointer]: Luis Arizaga
+                  - option "Mauricio Bedoya" [ref=e241]:
+                    - generic [ref=e242] [cursor=pointer]: Mauricio Bedoya
+                  - option "Corey Campbell" [ref=e243]:
+                    - generic [ref=e244] [cursor=pointer]: Corey Campbell
+                  - option "David Calvo" [ref=e245]:
+                    - generic [ref=e246] [cursor=pointer]: David Calvo
+                  - option "Erika Lodwig" [ref=e247]:
+                    - generic [ref=e248] [cursor=pointer]: Erika Lodwig
+                  - option "Joseph Marciante" [ref=e249]:
+                    - generic [ref=e250] [cursor=pointer]: Joseph Marciante
+                  - option "Juan Bringas" [ref=e251]:
+                    - generic [ref=e252] [cursor=pointer]: Juan Bringas
+                  - option "Joseph DeSanti" [ref=e253]:
+                    - generic [ref=e254] [cursor=pointer]: Joseph DeSanti
+                  - option "Eden Vick" [ref=e255]:
+                    - generic [ref=e256] [cursor=pointer]: Eden Vick
+                  - option "Audley Williams" [ref=e257]:
+                    - generic [ref=e258] [cursor=pointer]: Audley Williams
+                  - option "Anne Clermont" [ref=e259]:
+                    - generic [ref=e260] [cursor=pointer]: Anne Clermont
+                  - option "Kelly Swanson" [ref=e261]:
+                    - generic [ref=e262] [cursor=pointer]: Kelly Swanson
+                  - option "Anthony Rainey" [ref=e263]:
+                    - generic [ref=e264] [cursor=pointer]: Anthony Rainey
+                  - option "David Perdomo" [ref=e265]:
+                    - generic [ref=e266] [cursor=pointer]: David Perdomo
+                  - option "Satonya Ford" [ref=e267]:
+                    - generic [ref=e268] [cursor=pointer]: Satonya Ford
+                  - option "Melissa Castro" [ref=e269]:
+                    - generic [ref=e270] [cursor=pointer]: Melissa Castro
+                  - option "Jaylie Sosa" [ref=e271]:
+                    - generic [ref=e272] [cursor=pointer]: Jaylie Sosa
+                  - option "Dayna Cousino" [ref=e273]:
+                    - generic [ref=e274] [cursor=pointer]: Dayna Cousino
+                  - option "Omar Diaz" [ref=e275]:
+                    - generic [ref=e276] [cursor=pointer]: Omar Diaz
+                  - option "Luis Alcantara" [ref=e277]:
+                    - generic [ref=e278] [cursor=pointer]: Luis Alcantara
+                  - option "Princesa Batres" [ref=e279]:
+                    - generic [ref=e280] [cursor=pointer]: Princesa Batres
+                  - option "Luis Perez" [ref=e281]:
+                    - generic [ref=e282] [cursor=pointer]: Luis Perez
+                  - option "Rafael Lara" [ref=e283]:
+                    - generic [ref=e284] [cursor=pointer]: Rafael Lara
+                  - option "Glenn Kennedy" [ref=e285]:
+                    - generic [ref=e286] [cursor=pointer]: Glenn Kennedy
+                  - option "Helton Lucero" [ref=e287]:
+                    - generic [ref=e288] [cursor=pointer]: Helton Lucero
+                  - option "Jose Fuentes" [ref=e289]:
+                    - generic [ref=e290] [cursor=pointer]: Jose Fuentes
+                  - option "Jiacheng Liu" [ref=e291]:
+                    - generic [ref=e292] [cursor=pointer]: Jiacheng Liu
+            - generic [ref=e293]:
+              - generic [ref=e294]: Branch Name
+              - combobox [ref=e295]:
+                - generic [ref=e297]:
+                  - textbox "-searchbox":
+                    - /placeholder: Select option
+                  - generic [ref=e298]: Select option
+            - generic [ref=e299]:
+              - generic [ref=e300]: Loan Officer
+              - combobox [expanded] [ref=e301]:
+                - textbox "-searchbox" [active] [ref=e304]:
+                  - /placeholder: Select option
+            - generic [ref=e306]:
+              - generic [ref=e307]: Channel Name
+              - combobox [ref=e308]:
+                - generic [ref=e310]:
+                  - textbox "-searchbox":
+                    - /placeholder: Select option
+                  - generic [ref=e311]: Select option
+            - generic [ref=e312]:
+              - generic [ref=e313]: Month
+              - combobox [ref=e314]:
+                - generic [ref=e316]:
+                  - textbox "-searchbox":
+                    - /placeholder: Select option
+                  - generic [ref=e317]: Select option
+          - generic [ref=e318]:
+            - button "Apply" [ref=e319] [cursor=pointer]
+            - button "Clear" [ref=e320] [cursor=pointer]
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - heading "Funded Report" [level=4] [ref=e323]
+          - button "Expand" [ref=e324] [cursor=pointer]
+        - table [ref=e326]:
+          - rowgroup [ref=e327]:
+            - row "Loan Officer Name ↑↓ YTD Units ↑↓ YTD Volume ↑↓" [ref=e328]:
+              - columnheader "Loan Officer Name ↑↓" [ref=e329] [cursor=pointer]
+              - columnheader "YTD Units ↑↓" [ref=e330] [cursor=pointer]:
+                - text: YTD Units
+                - generic [ref=e331]: ↑↓
+              - columnheader "YTD Volume ↑↓" [ref=e332] [cursor=pointer]:
+                - text: YTD Volume
+                - generic [ref=e333]: ↑↓
+          - rowgroup [ref=e334]:
+            - row "Abelardo Barreto 5 $3,071,275" [ref=e335]:
+              - cell "Abelardo Barreto" [ref=e336]
+              - cell "5" [ref=e337]
+              - cell "$3,071,275" [ref=e338]
+            - row "Alberto Hernandez 1 $350,000" [ref=e339]:
+              - cell "Alberto Hernandez" [ref=e340]
+              - cell "1" [ref=e341]
+              - cell "$350,000" [ref=e342]
+            - row "Andrea Baldini 1 $608,000" [ref=e343]:
+              - cell "Andrea Baldini" [ref=e344]
+              - cell "1" [ref=e345]
+              - cell "$608,000" [ref=e346]
+            - row "Andrea Baldini 2 $756,250" [ref=e347]:
+              - cell "Andrea Baldini" [ref=e348]
+              - cell "2" [ref=e349]
+              - cell "$756,250" [ref=e350]
+            - row "Andres Guerrero 6 $2,245,999" [ref=e351]:
+              - cell "Andres Guerrero" [ref=e352]
+              - cell "6" [ref=e353]
+              - cell "$2,245,999" [ref=e354]
+            - row "Andres Pumariega 3 $1,979,250" [ref=e355]:
+              - cell "Andres Pumariega" [ref=e356]
+              - cell "3" [ref=e357]
+              - cell "$1,979,250" [ref=e358]
+            - row "Anna Valdez 1 $330,000" [ref=e359]:
+              - cell "Anna Valdez" [ref=e360]
+              - cell "1" [ref=e361]
+              - cell "$330,000" [ref=e362]
+            - row "Anne Clermont 2 $3,676,000" [ref=e363]:
+              - cell "Anne Clermont" [ref=e364]
+              - cell "2" [ref=e365]
+              - cell "$3,676,000" [ref=e366]
+            - row "Anthony Rainey 1 $88,369" [ref=e367]:
+              - cell "Anthony Rainey" [ref=e368]
+              - cell "1" [ref=e369]
+              - cell "$88,369" [ref=e370]
+            - row "Apolonia Sanmartin 3 $2,232,500" [ref=e371]:
+              - cell "Apolonia Sanmartin" [ref=e372]
+              - cell "3" [ref=e373]
+              - cell "$2,232,500" [ref=e374]
+            - row "Ariel Huynh 1 $354,000" [ref=e375]:
+              - cell "Ariel Huynh" [ref=e376]
+              - cell "1" [ref=e377]
+              - cell "$354,000" [ref=e378]
+            - row "Armando Cova 5 $1,605,547" [ref=e379]:
+              - cell "Armando Cova" [ref=e380]
+              - cell "5" [ref=e381]
+              - cell "$1,605,547" [ref=e382]
+            - row "Arnold Roopchand 8 $3,395,218" [ref=e383]:
+              - cell "Arnold Roopchand" [ref=e384]
+              - cell "8" [ref=e385]
+              - cell "$3,395,218" [ref=e386]
+            - row "Ashley Mock 5 $2,465,500" [ref=e387]:
+              - cell "Ashley Mock" [ref=e388]
+              - cell "5" [ref=e389]
+              - cell "$2,465,500" [ref=e390]
+            - row "Audley Williams 1 $401,000" [ref=e391]:
+              - cell "Audley Williams" [ref=e392]
+              - cell "1" [ref=e393]
+              - cell "$401,000" [ref=e394]
+            - row "Belkis Moore 2 $435,000" [ref=e395]:
+              - cell "Belkis Moore" [ref=e396]
+              - cell "2" [ref=e397]
+              - cell "$435,000" [ref=e398]
+            - row "Candece Cavalieri 1 $832,750" [ref=e399]:
+              - cell "Candece Cavalieri" [ref=e400]
+              - cell "1" [ref=e401]
+              - cell "$832,750" [ref=e402]
+            - row "Carlos Torres 2 $726,925" [ref=e403]:
+              - cell "Carlos Torres" [ref=e404]
+              - cell "2" [ref=e405]
+              - cell "$726,925" [ref=e406]
+            - row "Carrie Polys 10 $3,333,164" [ref=e407]:
+              - cell "Carrie Polys" [ref=e408]
+              - cell "10" [ref=e409]
+              - cell "$3,333,164" [ref=e410]
+            - row "Celeste Villar 3 $374,750" [ref=e411]:
+              - cell "Celeste Villar" [ref=e412]
+              - cell "3" [ref=e413]
+              - cell "$374,750" [ref=e414]
+            - row "Cesar Del Collado 7 $2,563,693" [ref=e415]:
+              - cell "Cesar Del Collado" [ref=e416]
+              - cell "7" [ref=e417]
+              - cell "$2,563,693" [ref=e418]
+            - row "Cesar Delgado 2 $962,500" [ref=e419]:
+              - cell "Cesar Delgado" [ref=e420]
+              - cell "2" [ref=e421]
+              - cell "$962,500" [ref=e422]
+            - row "Cesar Suarez 4 $1,396,800" [ref=e423]:
+              - cell "Cesar Suarez" [ref=e424]
+              - cell "4" [ref=e425]
+              - cell "$1,396,800" [ref=e426]
+            - row "Chad Reidlinger 36 $18,982,887" [ref=e427]:
+              - cell "Chad Reidlinger" [ref=e428]
+              - cell "36" [ref=e429]
+              - cell "$18,982,887" [ref=e430]
+            - row "Charli Wambolt Duarte 3 $1,189,700" [ref=e431]:
+              - cell "Charli Wambolt Duarte" [ref=e432]
+              - cell "3" [ref=e433]
+              - cell "$1,189,700" [ref=e434]
+            - row "Christopher Goodman 7 $2,355,165" [ref=e435]:
+              - cell "Christopher Goodman" [ref=e436]
+              - cell "7" [ref=e437]
+              - cell "$2,355,165" [ref=e438]
+            - row "Ciro Hernandez 7 $3,514,418" [ref=e439]:
+              - cell "Ciro Hernandez" [ref=e440]
+              - cell "7" [ref=e441]
+              - cell "$3,514,418" [ref=e442]
+            - row "Colleen Rudnick 1 $175,000" [ref=e443]:
+              - cell "Colleen Rudnick" [ref=e444]
+              - cell "1" [ref=e445]
+              - cell "$175,000" [ref=e446]
+            - row "Colleen Rudnick 1 $737,300" [ref=e447]:
+              - cell "Colleen Rudnick" [ref=e448]
+              - cell "1" [ref=e449]
+              - cell "$737,300" [ref=e450]
+            - row "Corey Campbell 1 $240,552" [ref=e451]:
+              - cell "Corey Campbell" [ref=e452]
+              - cell "1" [ref=e453]
+              - cell "$240,552" [ref=e454]
+            - row "Cristian Orellana 1 $462,000" [ref=e455]:
+              - cell "Cristian Orellana" [ref=e456]
+              - cell "1" [ref=e457]
+              - cell "$462,000" [ref=e458]
+            - row "Cristian Orellana 1 $675,000" [ref=e459]:
+              - cell "Cristian Orellana" [ref=e460]
+              - cell "1" [ref=e461]
+              - cell "$675,000" [ref=e462]
+            - row "Curt Bogle 1 $346,794" [ref=e463]:
+              - cell "Curt Bogle" [ref=e464]
+              - cell "1" [ref=e465]
+              - cell "$346,794" [ref=e466]
+            - row "David Calvo 3 $612,333" [ref=e467]:
+              - cell "David Calvo" [ref=e468]
+              - cell "3" [ref=e469]
+              - cell "$612,333" [ref=e470]
+            - row "David Luczkow 4 $1,797,157" [ref=e471]:
+              - cell "David Luczkow" [ref=e472]
+              - cell "4" [ref=e473]
+              - cell "$1,797,157" [ref=e474]
+            - row "David Perdomo 1 $264,000" [ref=e475]:
+              - cell "David Perdomo" [ref=e476]
+              - cell "1" [ref=e477]
+              - cell "$264,000" [ref=e478]
+            - row "Dayna Cousino 7 $2,117,611" [ref=e479]:
+              - cell "Dayna Cousino" [ref=e480]
+              - cell "7" [ref=e481]
+              - cell "$2,117,611" [ref=e482]
+            - row "Dennis Hernandez 1 $143,500" [ref=e483]:
+              - cell "Dennis Hernandez" [ref=e484]
+              - cell "1" [ref=e485]
+              - cell "$143,500" [ref=e486]
+            - row "Eden Vick 1 $191,200" [ref=e487]:
+              - cell "Eden Vick" [ref=e488]
+              - cell "1" [ref=e489]
+              - cell "$191,200" [ref=e490]
+            - row "Erika Lodwig 1 $180,000" [ref=e491]:
+              - cell "Erika Lodwig" [ref=e492]
+              - cell "1" [ref=e493]
+              - cell "$180,000" [ref=e494]
+            - row "Frank Armas 4 $1,713,086" [ref=e495]:
+              - cell "Frank Armas" [ref=e496]
+              - cell "4" [ref=e497]
+              - cell "$1,713,086" [ref=e498]
+            - row "Freddy Cova 7 $2,104,200" [ref=e499]:
+              - cell "Freddy Cova" [ref=e500]
+              - cell "7" [ref=e501]
+              - cell "$2,104,200" [ref=e502]
+            - row "Gera Durand 1 $100,000" [ref=e503]:
+              - cell "Gera Durand" [ref=e504]
+              - cell "1" [ref=e505]
+              - cell "$100,000" [ref=e506]
+            - row "Glenn Kennedy 1 $720,000" [ref=e507]:
+              - cell "Glenn Kennedy" [ref=e508]
+              - cell "1" [ref=e509]
+              - cell "$720,000" [ref=e510]
+            - row "Helton Lucero 1 $465,500" [ref=e511]:
+              - cell "Helton Lucero" [ref=e512]
+              - cell "1" [ref=e513]
+              - cell "$465,500" [ref=e514]
+            - row "Hernan Feria 3 $1,872,000" [ref=e515]:
+              - cell "Hernan Feria" [ref=e516]
+              - cell "3" [ref=e517]
+              - cell "$1,872,000" [ref=e518]
+            - row "Hugo Riano 5 $1,855,827" [ref=e519]:
+              - cell "Hugo Riano" [ref=e520]
+              - cell "5" [ref=e521]
+              - cell "$1,855,827" [ref=e522]
+            - row "Irina Castro 1 $241,500" [ref=e523]:
+              - cell "Irina Castro" [ref=e524]
+              - cell "1" [ref=e525]
+              - cell "$241,500" [ref=e526]
+            - row "Ivan Cardenas 8 $3,300,150" [ref=e527]:
+              - cell "Ivan Cardenas" [ref=e528]
+              - cell "8" [ref=e529]
+              - cell "$3,300,150" [ref=e530]
+            - row "Jake Adler 3 $1,011,415" [ref=e531]:
+              - cell "Jake Adler" [ref=e532]
+              - cell "3" [ref=e533]
+              - cell "$1,011,415" [ref=e534]
+            - row "James Stout 2 $1,186,665" [ref=e535]:
+              - cell "James Stout" [ref=e536]
+              - cell "2" [ref=e537]
+              - cell "$1,186,665" [ref=e538]
+            - row "Jamie Rogers 1 $113,750" [ref=e539]:
+              - cell "Jamie Rogers" [ref=e540]
+              - cell "1" [ref=e541]
+              - cell "$113,750" [ref=e542]
+            - row "Jamie Rogers 5 $987,891" [ref=e543]:
+              - cell "Jamie Rogers" [ref=e544]
+              - cell "5" [ref=e545]
+              - cell "$987,891" [ref=e546]
+            - row "Jane McCarthy 1 $149,725" [ref=e547]:
+              - cell "Jane McCarthy" [ref=e548]
+              - cell "1" [ref=e549]
+              - cell "$149,725" [ref=e550]
+            - row "Jason Caballero 9 $3,900,046" [ref=e551]:
+              - cell "Jason Caballero" [ref=e552]
+              - cell "9" [ref=e553]
+              - cell "$3,900,046" [ref=e554]
+            - row "Jaylie Sosa 1 $353,500" [ref=e555]:
+              - cell "Jaylie Sosa" [ref=e556]
+              - cell "1" [ref=e557]
+              - cell "$353,500" [ref=e558]
+            - row "Jessica Dacosta 1 $306,495" [ref=e559]:
+              - cell "Jessica Dacosta" [ref=e560]
+              - cell "1" [ref=e561]
+              - cell "$306,495" [ref=e562]
+            - row "Jessica Dacosta 6 $3,041,835" [ref=e563]:
+              - cell "Jessica Dacosta" [ref=e564]
+              - cell "6" [ref=e565]
+              - cell "$3,041,835" [ref=e566]
+            - row "Jiacheng Liu 2 $282,555" [ref=e567]:
+              - cell "Jiacheng Liu" [ref=e568]
+              - cell "2" [ref=e569]
+              - cell "$282,555" [ref=e570]
+            - row "John Diaz 1 $103,750" [ref=e571]:
+              - cell "John Diaz" [ref=e572]
+              - cell "1" [ref=e573]
+              - cell "$103,750" [ref=e574]
+            - row "John Horton 3 $975,787" [ref=e575]:
+              - cell "John Horton" [ref=e576]
+              - cell "3" [ref=e577]
+              - cell "$975,787" [ref=e578]
+            - row "Jorge Vazquez 1 $294,566" [ref=e579]:
+              - cell "Jorge Vazquez" [ref=e580]
+              - cell "1" [ref=e581]
+              - cell "$294,566" [ref=e582]
+            - row "Jorge Vazquez 8 $4,725,824" [ref=e583]:
+              - cell "Jorge Vazquez" [ref=e584]
+              - cell "8" [ref=e585]
+              - cell "$4,725,824" [ref=e586]
+            - row "Jose Fuentes 1 $210,000" [ref=e587]:
+              - cell "Jose Fuentes" [ref=e588]
+              - cell "1" [ref=e589]
+              - cell "$210,000" [ref=e590]
+            - row "Joseph DeSanti 1 $270,019" [ref=e591]:
+              - cell "Joseph DeSanti" [ref=e592]
+              - cell "1" [ref=e593]
+              - cell "$270,019" [ref=e594]
+            - row "Joseph Marciante 1 $213,300" [ref=e595]:
+              - cell "Joseph Marciante" [ref=e596]
+              - cell "1" [ref=e597]
+              - cell "$213,300" [ref=e598]
+            - row "Joseph Marciante 1 $152,625" [ref=e599]:
+              - cell "Joseph Marciante" [ref=e600]
+              - cell "1" [ref=e601]
+              - cell "$152,625" [ref=e602]
+            - row "Juan Bringas 1 $675,000" [ref=e603]:
+              - cell "Juan Bringas" [ref=e604]
+              - cell "1" [ref=e605]
+              - cell "$675,000" [ref=e606]
+            - row "Juan Velasquez 5 $1,945,950" [ref=e607]:
+              - cell "Juan Velasquez" [ref=e608]
+              - cell "5" [ref=e609]
+              - cell "$1,945,950" [ref=e610]
+            - row "Judith Wallace 3 $738,000" [ref=e611]:
+              - cell "Judith Wallace" [ref=e612]
+              - cell "3" [ref=e613]
+              - cell "$738,000" [ref=e614]
+            - row "Jules Godin 1 $409,500" [ref=e615]:
+              - cell "Jules Godin" [ref=e616]
+              - cell "1" [ref=e617]
+              - cell "$409,500" [ref=e618]
+            - row "Julian Avila 6 $1,746,805" [ref=e619]:
+              - cell "Julian Avila" [ref=e620]
+              - cell "6" [ref=e621]
+              - cell "$1,746,805" [ref=e622]
+            - row "Julian Avila 1 $27,540" [ref=e623]:
+              - cell "Julian Avila" [ref=e624]
+              - cell "1" [ref=e625]
+              - cell "$27,540" [ref=e626]
+            - row "Julian De La Rosa Marcano 4 $763,500" [ref=e627]:
+              - cell "Julian De La Rosa Marcano" [ref=e628]
+              - cell "4" [ref=e629]
+              - cell "$763,500" [ref=e630]
+            - row "Julio Paneto 1 $379,527" [ref=e631]:
+              - cell "Julio Paneto" [ref=e632]
+              - cell "1" [ref=e633]
+              - cell "$379,527" [ref=e634]
+            - row "Katie Harper 1 $434,137" [ref=e635]:
+              - cell "Katie Harper" [ref=e636]
+              - cell "1" [ref=e637]
+              - cell "$434,137" [ref=e638]
+            - row "Keiber Martinez 12 $2,524,908" [ref=e639]:
+              - cell "Keiber Martinez" [ref=e640]
+              - cell "12" [ref=e641]
+              - cell "$2,524,908" [ref=e642]
+            - row "Kelly Swanson 1 $348,000" [ref=e643]:
+              - cell "Kelly Swanson" [ref=e644]
+              - cell "1" [ref=e645]
+              - cell "$348,000" [ref=e646]
+            - row "Kerry Salvanto 3 $1,542,977" [ref=e647]:
+              - cell "Kerry Salvanto" [ref=e648]
+              - cell "3" [ref=e649]
+              - cell "$1,542,977" [ref=e650]
+            - row "Leticia Fazio 2 $1,316,100" [ref=e651]:
+              - cell "Leticia Fazio" [ref=e652]
+              - cell "2" [ref=e653]
+              - cell "$1,316,100" [ref=e654]
+            - row "Lisa Rochester 6 $2,186,210" [ref=e655]:
+              - cell "Lisa Rochester" [ref=e656]
+              - cell "6" [ref=e657]
+              - cell "$2,186,210" [ref=e658]
+            - row "Lizeth Lagomarcino Papaleo 5 $1,936,780" [ref=e659]:
+              - cell "Lizeth Lagomarcino Papaleo" [ref=e660]
+              - cell "5" [ref=e661]
+              - cell "$1,936,780" [ref=e662]
+            - row "Lorena Lagares 7 $2,400,916" [ref=e663]:
+              - cell "Lorena Lagares" [ref=e664]
+              - cell "7" [ref=e665]
+              - cell "$2,400,916" [ref=e666]
+            - row "Luis Alcantara 1 $296,000" [ref=e667]:
+              - cell "Luis Alcantara" [ref=e668]
+              - cell "1" [ref=e669]
+              - cell "$296,000" [ref=e670]
+            - row "Luis Arizaga 8 $2,726,374" [ref=e671]:
+              - cell "Luis Arizaga" [ref=e672]
+              - cell "8" [ref=e673]
+              - cell "$2,726,374" [ref=e674]
+            - row "Luis Perez 1 $655,000" [ref=e675]:
+              - cell "Luis Perez" [ref=e676]
+              - cell "1" [ref=e677]
+              - cell "$655,000" [ref=e678]
+            - row "Maged Daniel 1 $366,300" [ref=e679]:
+              - cell "Maged Daniel" [ref=e680]
+              - cell "1" [ref=e681]
+              - cell "$366,300" [ref=e682]
+            - row "Malik Shalmiyev 1 $164,000" [ref=e683]:
+              - cell "Malik Shalmiyev" [ref=e684]
+              - cell "1" [ref=e685]
+              - cell "$164,000" [ref=e686]
+            - row "Maria Barbosa 4 $2,476,713" [ref=e687]:
+              - cell "Maria Barbosa" [ref=e688]
+              - cell "4" [ref=e689]
+              - cell "$2,476,713" [ref=e690]
+            - row "Maria Helena Barbosa 1 $556,000" [ref=e691]:
+              - cell "Maria Helena Barbosa" [ref=e692]
+              - cell "1" [ref=e693]
+              - cell "$556,000" [ref=e694]
+            - row "Maria Rossi 4 $2,451,000" [ref=e695]:
+              - cell "Maria Rossi" [ref=e696]
+              - cell "4" [ref=e697]
+              - cell "$2,451,000" [ref=e698]
+            - row "Maria Rossi 1 $256,757" [ref=e699]:
+              - cell "Maria Rossi" [ref=e700]
+              - cell "1" [ref=e701]
+              - cell "$256,757" [ref=e702]
+            - row "Marianela Muniz 1 $150,000" [ref=e703]:
+              - cell "Marianela Muniz" [ref=e704]
+              - cell "1" [ref=e705]
+              - cell "$150,000" [ref=e706]
+            - row "Marla Melendez 6 $1,512,676" [ref=e707]:
+              - cell "Marla Melendez" [ref=e708]
+              - cell "6" [ref=e709]
+              - cell "$1,512,676" [ref=e710]
+            - row "Mauricio Bedoya 3 $664,000" [ref=e711]:
+              - cell "Mauricio Bedoya" [ref=e712]
+              - cell "3" [ref=e713]
+              - cell "$664,000" [ref=e714]
+            - row "Mayra Bermudez 1 $449,520" [ref=e715]:
+              - cell "Mayra Bermudez" [ref=e716]
+              - cell "1" [ref=e717]
+              - cell "$449,520" [ref=e718]
+            - row "Meibol Torres 12 $3,638,925" [ref=e719]:
+              - cell "Meibol Torres" [ref=e720]
+              - cell "12" [ref=e721]
+              - cell "$3,638,925" [ref=e722]
+            - row "Melissa Castro 4 $1,388,251" [ref=e723]:
+              - cell "Melissa Castro" [ref=e724]
+              - cell "4" [ref=e725]
+              - cell "$1,388,251" [ref=e726]
+            - row "Michael Cathey 8 $2,061,443" [ref=e727]:
+              - cell "Michael Cathey" [ref=e728]
+              - cell "8" [ref=e729]
+              - cell "$2,061,443" [ref=e730]
+            - row "Michael McLaughlin 5 $1,598,024" [ref=e731]:
+              - cell "Michael McLaughlin" [ref=e732]
+              - cell "5" [ref=e733]
+              - cell "$1,598,024" [ref=e734]
+            - row "Natalie Premock 3 $1,417,670" [ref=e735]:
+              - cell "Natalie Premock" [ref=e736]
+              - cell "3" [ref=e737]
+              - cell "$1,417,670" [ref=e738]
+            - row "Natalie Premock 1 $208,000" [ref=e739]:
+              - cell "Natalie Premock" [ref=e740]
+              - cell "1" [ref=e741]
+              - cell "$208,000" [ref=e742]
+            - row "Natalie Premock 12 $2,485,366" [ref=e743]:
+              - cell "Natalie Premock" [ref=e744]
+              - cell "12" [ref=e745]
+              - cell "$2,485,366" [ref=e746]
+            - row "Nataliya Maduro 4 $1,492,976" [ref=e747]:
+              - cell "Nataliya Maduro" [ref=e748]
+              - cell "4" [ref=e749]
+              - cell "$1,492,976" [ref=e750]
+            - row "Nayla Santa Rosa 4 $1,383,587" [ref=e751]:
+              - cell "Nayla Santa Rosa" [ref=e752]
+              - cell "4" [ref=e753]
+              - cell "$1,383,587" [ref=e754]
+            - row "Nelson Gonzalez 6 $2,197,906" [ref=e755]:
+              - cell "Nelson Gonzalez" [ref=e756]
+              - cell "6" [ref=e757]
+              - cell "$2,197,906" [ref=e758]
+            - row "Nelson Lopez 4 $2,058,288" [ref=e759]:
+              - cell "Nelson Lopez" [ref=e760]
+              - cell "4" [ref=e761]
+              - cell "$2,058,288" [ref=e762]
+            - row "Nicholas LeLoudis 1 $318,019" [ref=e763]:
+              - cell "Nicholas LeLoudis" [ref=e764]
+              - cell "1" [ref=e765]
+              - cell "$318,019" [ref=e766]
+            - row "Nicolas Garazo 12 $3,411,011" [ref=e767]:
+              - cell "Nicolas Garazo" [ref=e768]
+              - cell "12" [ref=e769]
+              - cell "$3,411,011" [ref=e770]
+            - row "Omar Diaz 3 $1,214,916" [ref=e771]:
+              - cell "Omar Diaz" [ref=e772]
+              - cell "3" [ref=e773]
+              - cell "$1,214,916" [ref=e774]
+            - row "Orestes Cruz 20 $5,063,710" [ref=e775]:
+              - cell "Orestes Cruz" [ref=e776]
+              - cell "20" [ref=e777]
+              - cell "$5,063,710" [ref=e778]
+            - row "Patrick Driscoll 5 $1,924,038" [ref=e779]:
+              - cell "Patrick Driscoll" [ref=e780]
+              - cell "5" [ref=e781]
+              - cell "$1,924,038" [ref=e782]
+            - row "Patrick Driscoll 1 $150,000" [ref=e783]:
+              - cell "Patrick Driscoll" [ref=e784]
+              - cell "1" [ref=e785]
+              - cell "$150,000" [ref=e786]
+            - row "Princesa Batres 4 $1,493,476" [ref=e787]:
+              - cell "Princesa Batres" [ref=e788]
+              - cell "4" [ref=e789]
+              - cell "$1,493,476" [ref=e790]
+            - row "Rafael Almodovar 5 $1,431,550" [ref=e791]:
+              - cell "Rafael Almodovar" [ref=e792]
+              - cell "5" [ref=e793]
+              - cell "$1,431,550" [ref=e794]
+            - row "Rafael Lara 1 $175,000" [ref=e795]:
+              - cell "Rafael Lara" [ref=e796]
+              - cell "1" [ref=e797]
+              - cell "$175,000" [ref=e798]
+            - row "Ramon Plasencia 7 $2,622,870" [ref=e799]:
+              - cell "Ramon Plasencia" [ref=e800]
+              - cell "7" [ref=e801]
+              - cell "$2,622,870" [ref=e802]
+            - row "Robert Raiche 2 $1,076,670" [ref=e803]:
+              - cell "Robert Raiche" [ref=e804]
+              - cell "2" [ref=e805]
+              - cell "$1,076,670" [ref=e806]
+            - row "Roberto Farid 15 $5,544,812" [ref=e807]:
+              - cell "Roberto Farid" [ref=e808]
+              - cell "15" [ref=e809]
+              - cell "$5,544,812" [ref=e810]
+            - row "Rocio Portella Lopez 1 $265,010" [ref=e811]:
+              - cell "Rocio Portella Lopez" [ref=e812]
+              - cell "1" [ref=e813]
+              - cell "$265,010" [ref=e814]
+            - row "Samantha Harding 4 $870,287" [ref=e815]:
+              - cell "Samantha Harding" [ref=e816]
+              - cell "4" [ref=e817]
+              - cell "$870,287" [ref=e818]
+            - row "Sandra Cobo 6 $2,597,350" [ref=e819]:
+              - cell "Sandra Cobo" [ref=e820]
+              - cell "6" [ref=e821]
+              - cell "$2,597,350" [ref=e822]
+            - row "Satonya Ford 1 $139,227" [ref=e823]:
+              - cell "Satonya Ford" [ref=e824]
+              - cell "1" [ref=e825]
+              - cell "$139,227" [ref=e826]
+            - row "Shirley Deloach 1 $207,875" [ref=e827]:
+              - cell "Shirley Deloach" [ref=e828]
+              - cell "1" [ref=e829]
+              - cell "$207,875" [ref=e830]
+            - row "Steve Austin 5 $1,239,818" [ref=e831]:
+              - cell "Steve Austin" [ref=e832]
+              - cell "5" [ref=e833]
+              - cell "$1,239,818" [ref=e834]
+            - row "Steve Elliott 5 $1,305,000" [ref=e835]:
+              - cell "Steve Elliott" [ref=e836]
+              - cell "5" [ref=e837]
+              - cell "$1,305,000" [ref=e838]
+            - row "Steve Elliott 1 $1,191,000" [ref=e839]:
+              - cell "Steve Elliott" [ref=e840]
+              - cell "1" [ref=e841]
+              - cell "$1,191,000" [ref=e842]
+            - row "Talita Camilo 6 $2,190,857" [ref=e843]:
+              - cell "Talita Camilo" [ref=e844]
+              - cell "6" [ref=e845]
+              - cell "$2,190,857" [ref=e846]
+            - row "Tathiana Schulze 1 $300,000" [ref=e847]:
+              - cell "Tathiana Schulze" [ref=e848]
+              - cell "1" [ref=e849]
+              - cell "$300,000" [ref=e850]
+            - row "Thiago Habib Monteiro 2 $585,600" [ref=e851]:
+              - cell "Thiago Habib Monteiro" [ref=e852]
+              - cell "2" [ref=e853]
+              - cell "$585,600" [ref=e854]
+            - row "Tomas Lamas 2 $563,184" [ref=e855]:
+              - cell "Tomas Lamas" [ref=e856]
+              - cell "2" [ref=e857]
+              - cell "$563,184" [ref=e858]
+            - row "William Green 3 $1,135,000" [ref=e859]:
+              - cell "William Green" [ref=e860]
+              - cell "3" [ref=e861]
+              - cell "$1,135,000" [ref=e862]
+            - row "Yudith Figueroa 1 $217,455" [ref=e863]:
+              - cell "Yudith Figueroa" [ref=e864]
+              - cell "1" [ref=e865]
+              - cell "$217,455" [ref=e866]
+          - rowgroup [ref=e867]:
+            - row "Total 502 $188,085,479" [ref=e868]:
+              - cell "Total" [ref=e869]
+              - cell "502" [ref=e870]
+              - cell "$188,085,479" [ref=e871]
+      - img [ref=e877]
+      - generic [ref=e4024]:
+        - generic [ref=e4025]:
+          - heading "Loan Channel" [level=5] [ref=e4026]
+          - generic [ref=e4027]:
+            - table [ref=e4030]:
+              - rowgroup [ref=e4031]:
+                - row "Loan Channel ↑↓ Percentage ↑↓ Units ↑↓ Volume ↑↓" [ref=e4032]:
+                  - columnheader "Loan Channel ↑↓" [ref=e4033] [cursor=pointer]:
+                    - text: Loan Channel
+                    - generic [ref=e4034]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e4035] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e4036]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e4037] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e4038]: ↑↓
+                  - columnheader "Volume ↑↓" [ref=e4039] [cursor=pointer]:
+                    - text: Volume
+                    - generic [ref=e4040]: ↑↓
+              - rowgroup [ref=e4041]:
+                - row "Non-Delegated 26.5% 133 $54,283,375" [ref=e4042]:
+                  - cell "Non-Delegated" [ref=e4043]
+                  - cell "26.5%" [ref=e4044]
+                  - cell "133" [ref=e4045]
+                  - cell "$54,283,375" [ref=e4046]
+                - row "Delegated 53.4% 268 $98,001,576" [ref=e4047]:
+                  - cell "Delegated" [ref=e4048]
+                  - cell "53.4%" [ref=e4049]
+                  - cell "268" [ref=e4050]
+                  - cell "$98,001,576" [ref=e4051]
+                - row "Brokered 19.9% 100 $34,609,527" [ref=e4052]:
+                  - cell "Brokered" [ref=e4053]
+                  - cell "19.9%" [ref=e4054]
+                  - cell "100" [ref=e4055]
+                  - cell "$34,609,527" [ref=e4056]
+                - row "N/A 0.2% 1 $1,191,000" [ref=e4057]:
+                  - cell "N/A" [ref=e4058]
+                  - cell "0.2%" [ref=e4059]
+                  - cell "1" [ref=e4060]
+                  - cell "$1,191,000" [ref=e4061]
+              - rowgroup [ref=e4062]:
+                - row "Total 100% 502 $188,085,478" [ref=e4063]:
+                  - cell "Total" [ref=e4064]
+                  - cell "100%" [ref=e4065]
+                  - cell "502" [ref=e4066]
+                  - cell "$188,085,478" [ref=e4067]
+            - generic [ref=e4069]:
+              - heading [level=5]
+        - generic [ref=e4072]:
+          - heading "Loan Program" [level=5] [ref=e4073]
+          - generic [ref=e4074]:
+            - table [ref=e4077]:
+              - rowgroup [ref=e4078]:
+                - row "Loan Program ↑↓ Percentage ↑↓ Units ↑↓ Volume ↑↓" [ref=e4079]:
+                  - columnheader "Loan Program ↑↓" [ref=e4080] [cursor=pointer]:
+                    - text: Loan Program
+                    - generic [ref=e4081]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e4082] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e4083]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e4084] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e4085]: ↑↓
+                  - columnheader "Volume ↑↓" [ref=e4086] [cursor=pointer]:
+                    - text: Volume
+                    - generic [ref=e4087]: ↑↓
+              - rowgroup [ref=e4088]:
+                - row "Non QM 31.1% 156 $56,329,149" [ref=e4089]:
+                  - cell "Non QM" [ref=e4090]
+                  - cell "31.1%" [ref=e4091]
+                  - cell "156" [ref=e4092]
+                  - cell "$56,329,149" [ref=e4093]
+                - row "Conventional 45.4% 228 $86,884,398" [ref=e4094]:
+                  - cell "Conventional" [ref=e4095]
+                  - cell "45.4%" [ref=e4096]
+                  - cell "228" [ref=e4097]
+                  - cell "$86,884,398" [ref=e4098]
+                - row "FHA 18.3% 92 $33,583,645" [ref=e4099]:
+                  - cell "FHA" [ref=e4100]
+                  - cell "18.3%" [ref=e4101]
+                  - cell "92" [ref=e4102]
+                  - cell "$33,583,645" [ref=e4103]
+                - row "VA 4.6% 23 $10,399,158" [ref=e4104]:
+                  - cell "VA" [ref=e4105]
+                  - cell "4.6%" [ref=e4106]
+                  - cell "23" [ref=e4107]
+                  - cell "$10,399,158" [ref=e4108]
+                - row "Other 0.6% 3 $889,127" [ref=e4109]:
+                  - cell "Other" [ref=e4110]
+                  - cell "0.6%" [ref=e4111]
+                  - cell "3" [ref=e4112]
+                  - cell "$889,127" [ref=e4113]
+              - rowgroup [ref=e4114]:
+                - row "Total 100% 502 $188,085,477" [ref=e4115]:
+                  - cell "Total" [ref=e4116]
+                  - cell "100%" [ref=e4117]
+                  - cell "502" [ref=e4118]
+                  - cell "$188,085,477" [ref=e4119]
+            - generic [ref=e4121]:
+              - heading [level=5]
+        - generic [ref=e4124]:
+          - heading "Loan Purpose" [level=5] [ref=e4125]
+          - generic [ref=e4126]:
+            - table [ref=e4129]:
+              - rowgroup [ref=e4130]:
+                - row "Loan Purpose ↑↓ Percentage ↑↓ Units ↑↓ Volume ↑↓" [ref=e4131]:
+                  - columnheader "Loan Purpose ↑↓" [ref=e4132] [cursor=pointer]:
+                    - text: Loan Purpose
+                    - generic [ref=e4133]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e4134] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e4135]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e4136] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e4137]: ↑↓
+                  - columnheader "Volume ↑↓" [ref=e4138] [cursor=pointer]:
+                    - text: Volume
+                    - generic [ref=e4139]: ↑↓
+              - rowgroup [ref=e4140]:
+                - row "Refinance 27.5% 138 $47,620,322" [ref=e4141]:
+                  - cell "Refinance" [ref=e4142]
+                  - cell "27.5%" [ref=e4143]
+                  - cell "138" [ref=e4144]
+                  - cell "$47,620,322" [ref=e4145]
+                - row "Purchase 71.3% 358 $139,844,960" [ref=e4146]:
+                  - cell "Purchase" [ref=e4147]
+                  - cell "71.3%" [ref=e4148]
+                  - cell "358" [ref=e4149]
+                  - cell "$139,844,960" [ref=e4150]
+                - row "Home Equity Loan 1.2% 6 $620,195" [ref=e4151]:
+                  - cell "Home Equity Loan" [ref=e4152]
+                  - cell "1.2%" [ref=e4153]
+                  - cell "6" [ref=e4154]
+                  - cell "$620,195" [ref=e4155]
+              - rowgroup [ref=e4156]:
+                - row "Total 100% 502 $188,085,477" [ref=e4157]:
+                  - cell "Total" [ref=e4158]
+                  - cell "100%" [ref=e4159]
+                  - cell "502" [ref=e4160]
+                  - cell "$188,085,477" [ref=e4161]
+            - generic [ref=e4163]:
+              - heading [level=5]
+      - generic [ref=e4167]:
+        - generic [ref=e4168]:
+          - heading "Loan Investor" [level=5] [ref=e4169]
+          - button "Expand" [ref=e4170] [cursor=pointer]
+        - generic [ref=e4171]:
+          - table [ref=e4174]:
+            - rowgroup [ref=e4175]:
+              - row "Investor ↑↓ Channel Name ↑↓ Percentage ↑↓ Units ↑↓ Volume ↑↓" [ref=e4176]:
+                - columnheader "Investor ↑↓" [ref=e4177] [cursor=pointer]:
+                  - text: Investor
+                  - generic [ref=e4178]: ↑↓
+                - columnheader "Channel Name ↑↓" [ref=e4179] [cursor=pointer]:
+                  - text: Channel Name
+                  - generic [ref=e4180]: ↑↓
+                - columnheader "Percentage ↑↓" [ref=e4181] [cursor=pointer]:
+                  - text: Percentage
+                  - generic [ref=e4182]: ↑↓
+                - columnheader "Units ↑↓" [ref=e4183] [cursor=pointer]:
+                  - text: Units
+                  - generic [ref=e4184]: ↑↓
+                - columnheader "Volume ↑↓" [ref=e4185] [cursor=pointer]:
+                  - text: Volume
+                  - generic [ref=e4186]: ↑↓
+            - rowgroup [ref=e4187]:
+              - row "N/A Brokered 2.4% 12 $3,185,788" [ref=e4188]:
+                - cell "N/A" [ref=e4189]
+                - cell "Brokered" [ref=e4190]
+                - cell "2.4%" [ref=e4191]
+                - cell "12" [ref=e4192]
+                - cell "$3,185,788" [ref=e4193]
+              - row "N/A Delegated 0.6% 3 $46,053" [ref=e4194]:
+                - cell "N/A" [ref=e4195]
+                - cell "Delegated" [ref=e4196]
+                - cell "0.6%" [ref=e4197]
+                - cell "3" [ref=e4198]
+                - cell "$46,053" [ref=e4199]
+              - row "A & D Mortgage Brokered 0.6% 3 $1,001,100" [ref=e4200]:
+                - cell "A & D Mortgage" [ref=e4201]
+                - cell "Brokered" [ref=e4202]
+                - cell "0.6%" [ref=e4203]
+                - cell "3" [ref=e4204]
+                - cell "$1,001,100" [ref=e4205]
+              - row "Acra Lending Brokered 0.6% 3 $885,800" [ref=e4206]:
+                - cell "Acra Lending" [ref=e4207]
+                - cell "Brokered" [ref=e4208]
+                - cell "0.6%" [ref=e4209]
+                - cell "3" [ref=e4210]
+                - cell "$885,800" [ref=e4211]
+              - row "AD Mortgage Brokered 1.0% 5 $1,685,250" [ref=e4212]:
+                - cell "AD Mortgage" [ref=e4213]
+                - cell "Brokered" [ref=e4214]
+                - cell "1.0%" [ref=e4215]
+                - cell "5" [ref=e4216]
+                - cell "$1,685,250" [ref=e4217]
+            - rowgroup [ref=e4218]:
+              - row "Total 100% 502 $188,085,477" [ref=e4219]:
+                - cell "Total" [ref=e4220]
+                - cell [ref=e4221]
+                - cell "100%" [ref=e4222]
+                - cell "502" [ref=e4223]
+                - cell "$188,085,477" [ref=e4224]
+          - generic [ref=e4226]:
+            - heading [level=5]
+```

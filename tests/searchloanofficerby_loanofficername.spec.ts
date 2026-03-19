@@ -21,7 +21,7 @@ loanOfficerSets.forEach((loanOfficerSet) => {
 
     // ✅ Fix 1: proper goto wait
     await page.goto(config.appUrl, {
-      waitUntil: 'domcontentloaded',
+      waitUntil: 'networkidle',
       timeout:60_000
     });
 

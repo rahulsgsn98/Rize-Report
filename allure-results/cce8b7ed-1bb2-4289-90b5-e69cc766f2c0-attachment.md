@@ -1,0 +1,309 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button [ref=e7] [cursor=pointer]
+      - img "Rize Logo" [ref=e9]
+    - generic [ref=e12] [cursor=pointer]: AA
+  - complementary [ref=e13]
+  - main [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e20]:
+        - generic [ref=e23]:
+          - heading "LOAN OFFICER FUNDED" [level=4] [ref=e24]
+          - generic [ref=e27]: 03-16-2026 04:00 AM
+        - button "Open Filters" [ref=e28] [cursor=pointer]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Funded Report" [level=4] [ref=e32]
+          - button "Collapse" [ref=e33] [cursor=pointer]
+        - table [ref=e35]:
+          - rowgroup [ref=e36]:
+            - row "Loan Officer Name ↑↓ Branch Name ↑↓ YTD Units ↑↓ YTD Volume ↑↓ Division ↑↓ January 2026 February 2026 March 2026" [ref=e37]:
+              - columnheader "Loan Officer Name ↑↓" [ref=e38] [cursor=pointer]
+              - columnheader "Branch Name ↑↓" [ref=e39] [cursor=pointer]
+              - columnheader "YTD Units ↑↓" [ref=e40] [cursor=pointer]:
+                - text: YTD Units
+                - generic [ref=e41]: ↑↓
+              - columnheader "YTD Volume ↑↓" [ref=e42] [cursor=pointer]:
+                - text: YTD Volume
+                - generic [ref=e43]: ↑↓
+              - columnheader "Division ↑↓" [ref=e44] [cursor=pointer]
+              - columnheader "January 2026" [ref=e45]
+              - columnheader "February 2026" [ref=e46]
+              - columnheader "March 2026" [ref=e47]
+            - row "Units ↑↓ Volume ↑↓ Units ↑↓ Volume ↑↓ Units ↑↓ Volume ↑↓" [ref=e48]:
+              - columnheader "Units ↑↓" [ref=e49] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e50]: ↑↓
+              - columnheader "Volume ↑↓" [ref=e51] [cursor=pointer]:
+                - text: Volume
+                - generic [ref=e52]: ↑↓
+              - columnheader "Units ↑↓" [ref=e53] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e54]: ↑↓
+              - columnheader "Volume ↑↓" [ref=e55] [cursor=pointer]:
+                - text: Volume
+                - generic [ref=e56]: ↑↓
+              - columnheader "Units ↑↓" [ref=e57] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e58]: ↑↓
+              - columnheader "Volume ↑↓" [ref=e59] [cursor=pointer]:
+                - text: Volume
+                - generic [ref=e60]: ↑↓
+          - rowgroup [ref=e61]:
+            - row "Natalie Premock Burtonsville, MD | GLG Team 3 $1,417,670 Rize 3 $1,417,670 0 $0 0 $0" [ref=e62]:
+              - cell "Natalie Premock" [ref=e63]
+              - cell "Burtonsville, MD | GLG Team" [ref=e64]
+              - cell "3" [ref=e65]
+              - cell "$1,417,670" [ref=e66]
+              - cell "Rize" [ref=e67]
+              - cell "3" [ref=e68]
+              - cell "$1,417,670" [ref=e69]
+              - cell "0" [ref=e70]
+              - cell "$0" [ref=e71]
+              - cell "0" [ref=e72]
+              - cell "$0" [ref=e73]
+            - row "Natalie Premock Jupiter, FL | Dynamic Team 1 $208,000 Rize 1 $208,000 0 $0 0 $0" [ref=e74]:
+              - cell "Natalie Premock" [ref=e75]
+              - cell "Jupiter, FL | Dynamic Team" [ref=e76]
+              - cell "1" [ref=e77]
+              - cell "$208,000" [ref=e78]
+              - cell "Rize" [ref=e79]
+              - cell "1" [ref=e80]
+              - cell "$208,000" [ref=e81]
+              - cell "0" [ref=e82]
+              - cell "$0" [ref=e83]
+              - cell "0" [ref=e84]
+              - cell "$0" [ref=e85]
+            - row "Natalie Premock Plantation, FL 12 $2,485,366 Rize 6 $838,120 6 $1,647,246 0 $0" [ref=e86]:
+              - cell "Natalie Premock" [ref=e87]
+              - cell "Plantation, FL" [ref=e88]
+              - cell "12" [ref=e89]
+              - cell "$2,485,366" [ref=e90]
+              - cell "Rize" [ref=e91]
+              - cell "6" [ref=e92]
+              - cell "$838,120" [ref=e93]
+              - cell "6" [ref=e94]
+              - cell "$1,647,246" [ref=e95]
+              - cell "0" [ref=e96]
+              - cell "$0" [ref=e97]
+          - rowgroup [ref=e98]:
+            - row "Total 16 $4,111,036 10 $2,463,790 6 $1,647,246 0 $0" [ref=e99]:
+              - cell "Total" [ref=e100]
+              - cell [ref=e101]
+              - cell "16" [ref=e102]
+              - cell "$4,111,036" [ref=e103]
+              - cell [ref=e104]
+              - cell "10" [ref=e105]
+              - cell "$2,463,790" [ref=e106]
+              - cell "6" [ref=e107]
+              - cell "$1,647,246" [ref=e108]
+              - cell "0" [ref=e109]
+              - cell "$0" [ref=e110]
+      - generic [ref=e111]:
+        - paragraph [ref=e115]: Updating Geographic Data...
+        - img [ref=e120]: Created with Raphaël 2.1.0
+      - generic [ref=e3268]:
+        - generic [ref=e3269]:
+          - heading "Loan Channel" [level=5] [ref=e3270]
+          - generic [ref=e3271]:
+            - table [ref=e3274]:
+              - rowgroup [ref=e3275]:
+                - row "Loan Channel ↑↓ Percentage ↑↓ Units ↑↓ Volume ↑↓" [ref=e3276]:
+                  - columnheader "Loan Channel ↑↓" [ref=e3277] [cursor=pointer]:
+                    - text: Loan Channel
+                    - generic [ref=e3278]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e3279] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e3280]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e3281] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e3282]: ↑↓
+                  - columnheader "Volume ↑↓" [ref=e3283] [cursor=pointer]:
+                    - text: Volume
+                    - generic [ref=e3284]: ↑↓
+              - rowgroup [ref=e3285]:
+                - row "Delegated 68.8% 11 $2,891,561" [ref=e3286]:
+                  - cell "Delegated" [ref=e3287]
+                  - cell "68.8%" [ref=e3288]
+                  - cell "11" [ref=e3289]
+                  - cell "$2,891,561" [ref=e3290]
+                - row "Non-Delegated 18.8% 3 $892,000" [ref=e3291]:
+                  - cell "Non-Delegated" [ref=e3292]
+                  - cell "18.8%" [ref=e3293]
+                  - cell "3" [ref=e3294]
+                  - cell "$892,000" [ref=e3295]
+                - row "Brokered 12.5% 2 $327,475" [ref=e3296]:
+                  - cell "Brokered" [ref=e3297]
+                  - cell "12.5%" [ref=e3298]
+                  - cell "2" [ref=e3299]
+                  - cell "$327,475" [ref=e3300]
+              - rowgroup [ref=e3301]:
+                - row "Total 100% 16 $4,111,036" [ref=e3302]:
+                  - cell "Total" [ref=e3303]
+                  - cell "100%" [ref=e3304]
+                  - cell "16" [ref=e3305]
+                  - cell "$4,111,036" [ref=e3306]
+            - generic [ref=e3308]:
+              - heading [level=5]
+        - generic [ref=e3311]:
+          - heading "Loan Program" [level=5] [ref=e3312]
+          - generic [ref=e3313]:
+            - table [ref=e3316]:
+              - rowgroup [ref=e3317]:
+                - row "Loan Program ↑↓ Percentage ↑↓ Units ↑↓ Volume ↑↓" [ref=e3318]:
+                  - columnheader "Loan Program ↑↓" [ref=e3319] [cursor=pointer]:
+                    - text: Loan Program
+                    - generic [ref=e3320]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e3321] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e3322]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e3323] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e3324]: ↑↓
+                  - columnheader "Volume ↑↓" [ref=e3325] [cursor=pointer]:
+                    - text: Volume
+                    - generic [ref=e3326]: ↑↓
+              - rowgroup [ref=e3327]:
+                - row "Conventional 50.0% 8 $1,918,370" [ref=e3328]:
+                  - cell "Conventional" [ref=e3329]
+                  - cell "50.0%" [ref=e3330]
+                  - cell "8" [ref=e3331]
+                  - cell "$1,918,370" [ref=e3332]
+                - row "Non QM 12.5% 2 $709,475" [ref=e3333]:
+                  - cell "Non QM" [ref=e3334]
+                  - cell "12.5%" [ref=e3335]
+                  - cell "2" [ref=e3336]
+                  - cell "$709,475" [ref=e3337]
+                - row "FHA 25.0% 4 $1,042,762" [ref=e3338]:
+                  - cell "FHA" [ref=e3339]
+                  - cell "25.0%" [ref=e3340]
+                  - cell "4" [ref=e3341]
+                  - cell "$1,042,762" [ref=e3342]
+                - row "Other 6.3% 1 $110,000" [ref=e3343]:
+                  - cell "Other" [ref=e3344]
+                  - cell "6.3%" [ref=e3345]
+                  - cell "1" [ref=e3346]
+                  - cell "$110,000" [ref=e3347]
+                - row "VA 6.3% 1 $330,429" [ref=e3348]:
+                  - cell "VA" [ref=e3349]
+                  - cell "6.3%" [ref=e3350]
+                  - cell "1" [ref=e3351]
+                  - cell "$330,429" [ref=e3352]
+              - rowgroup [ref=e3353]:
+                - row "Total 100% 16 $4,111,036" [ref=e3354]:
+                  - cell "Total" [ref=e3355]
+                  - cell "100%" [ref=e3356]
+                  - cell "16" [ref=e3357]
+                  - cell "$4,111,036" [ref=e3358]
+            - generic [ref=e3360]:
+              - heading [level=5]
+        - generic [ref=e3363]:
+          - heading "Loan Purpose" [level=5] [ref=e3364]
+          - generic [ref=e3365]:
+            - table [ref=e3368]:
+              - rowgroup [ref=e3369]:
+                - row "Loan Purpose ↑↓ Percentage ↑↓ Units ↑↓ Volume ↑↓" [ref=e3370]:
+                  - columnheader "Loan Purpose ↑↓" [ref=e3371] [cursor=pointer]:
+                    - text: Loan Purpose
+                    - generic [ref=e3372]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e3373] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e3374]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e3375] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e3376]: ↑↓
+                  - columnheader "Volume ↑↓" [ref=e3377] [cursor=pointer]:
+                    - text: Volume
+                    - generic [ref=e3378]: ↑↓
+              - rowgroup [ref=e3379]:
+                - row "Purchase 68.8% 11 $3,053,132" [ref=e3380]:
+                  - cell "Purchase" [ref=e3381]
+                  - cell "68.8%" [ref=e3382]
+                  - cell "11" [ref=e3383]
+                  - cell "$3,053,132" [ref=e3384]
+                - row "Refinance 25.0% 4 $947,904" [ref=e3385]:
+                  - cell "Refinance" [ref=e3386]
+                  - cell "25.0%" [ref=e3387]
+                  - cell "4" [ref=e3388]
+                  - cell "$947,904" [ref=e3389]
+                - row "Home Equity Loan 6.3% 1 $110,000" [ref=e3390]:
+                  - cell "Home Equity Loan" [ref=e3391]
+                  - cell "6.3%" [ref=e3392]
+                  - cell "1" [ref=e3393]
+                  - cell "$110,000" [ref=e3394]
+              - rowgroup [ref=e3395]:
+                - row "Total 100% 16 $4,111,036" [ref=e3396]:
+                  - cell "Total" [ref=e3397]
+                  - cell "100%" [ref=e3398]
+                  - cell "16" [ref=e3399]
+                  - cell "$4,111,036" [ref=e3400]
+            - generic [ref=e3402]:
+              - heading [level=5]
+      - generic [ref=e3406]:
+        - generic [ref=e3407]:
+          - heading "Loan Investor" [level=5] [ref=e3408]
+          - button "Expand" [ref=e3409] [cursor=pointer]
+        - generic [ref=e3410]:
+          - table [ref=e3413]:
+            - rowgroup [ref=e3414]:
+              - row "Investor ↑↓ Channel Name ↑↓ Percentage ↑↓ Units ↑↓ Volume ↑↓" [ref=e3415]:
+                - columnheader "Investor ↑↓" [ref=e3416] [cursor=pointer]:
+                  - text: Investor
+                  - generic [ref=e3417]: ↑↓
+                - columnheader "Channel Name ↑↓" [ref=e3418] [cursor=pointer]:
+                  - text: Channel Name
+                  - generic [ref=e3419]: ↑↓
+                - columnheader "Percentage ↑↓" [ref=e3420] [cursor=pointer]:
+                  - text: Percentage
+                  - generic [ref=e3421]: ↑↓
+                - columnheader "Units ↑↓" [ref=e3422] [cursor=pointer]:
+                  - text: Units
+                  - generic [ref=e3423]: ↑↓
+                - columnheader "Volume ↑↓" [ref=e3424] [cursor=pointer]:
+                  - text: Volume
+                  - generic [ref=e3425]: ↑↓
+            - rowgroup [ref=e3426]:
+              - row "N/A Brokered 6.3% 1 $217,475" [ref=e3427]:
+                - cell "N/A" [ref=e3428]
+                - cell "Brokered" [ref=e3429]
+                - cell "6.3%" [ref=e3430]
+                - cell "1" [ref=e3431]
+                - cell "$217,475" [ref=e3432]
+              - row "CBC Mortgage Agency - Chenoa Delegated 12.5% 2 $284,728" [ref=e3433]:
+                - cell "CBC Mortgage Agency - Chenoa" [ref=e3434]
+                - cell "Delegated" [ref=e3435]
+                - cell "12.5%" [ref=e3436]
+                - cell "2" [ref=e3437]
+                - cell "$284,728" [ref=e3438]
+              - row "Deephaven Brokered 6.3% 1 $110,000" [ref=e3439]:
+                - cell "Deephaven" [ref=e3440]
+                - cell "Brokered" [ref=e3441]
+                - cell "6.3%" [ref=e3442]
+                - cell "1" [ref=e3443]
+                - cell "$110,000" [ref=e3444]
+              - row "Eleven Mortgage Non-Delegated 6.3% 1 $280,000" [ref=e3445]:
+                - cell "Eleven Mortgage" [ref=e3446]
+                - cell "Non-Delegated" [ref=e3447]
+                - cell "6.3%" [ref=e3448]
+                - cell "1" [ref=e3449]
+                - cell "$280,000" [ref=e3450]
+              - row "Freedom Delegated 6.3% 1 $330,429" [ref=e3451]:
+                - cell "Freedom" [ref=e3452]
+                - cell "Delegated" [ref=e3453]
+                - cell "6.3%" [ref=e3454]
+                - cell "1" [ref=e3455]
+                - cell "$330,429" [ref=e3456]
+            - rowgroup [ref=e3457]:
+              - row "Total 100% 16 $4,111,036" [ref=e3458]:
+                - cell "Total" [ref=e3459]
+                - cell [ref=e3460]
+                - cell "100%" [ref=e3461]
+                - cell "16" [ref=e3462]
+                - cell "$4,111,036" [ref=e3463]
+          - generic [ref=e3465]:
+            - heading [level=5]
+```
