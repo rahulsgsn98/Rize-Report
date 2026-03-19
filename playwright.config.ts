@@ -19,7 +19,7 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
  // retries: process.env.CI ? 2 : 0,
- retries:2,
+ retries:1,
 
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
@@ -52,11 +52,11 @@ video: 'retain-on-failure',
   name: 'chromium',
   use: {
     storageState: 'playwright/.auth/user.json',
-   headless: process.env.CI ? true : false
-     /* viewport: null,
+   headless: process.env.CI ? true : false,
+      /* viewport: null,
     launchOptions: {
       args: ['--start-maximized']
-    }  */
+    }  */ 
   },
  dependencies: process.env.CI ? [] : ['setup'],
 },
@@ -81,27 +81,27 @@ video: 'retain-on-failure',
     },  */
  
     /* Test against mobile viewports. */
-     /* {
+      {
        name: 'Mobile Chrome',
        use: { ...devices['Pixel 5'],
         storageState: 'playwright/.auth/user.json',
-        headless: false
+        headless: process.env.CI ? true : false,
 
 
         },
-        dependencies: ['setup'],
+       dependencies: process.env.CI ? [] : ['setup'],
      },
      {
        name: 'Mobile Safari',
        use: { ...devices['iPhone 12'] ,
         storageState: 'playwright/.auth/user.json',
-        headless: false
+         headless: process.env.CI ? true : false,
 
 
        },
-        dependencies: ['setup'],
+       dependencies: process.env.CI ? [] : ['setup'],
      },
- */
+ 
      // Manually added devices for tablets and foldables
 
     /*  {
