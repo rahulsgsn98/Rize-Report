@@ -19,10 +19,10 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
  // retries: process.env.CI ? 2 : 0,
- retries:1,
+ retries:5,
 
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 2 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
  reporter: [
 ['html'],
@@ -52,7 +52,7 @@ video: 'retain-on-failure',
   name: 'chromium',
   use: {
     storageState: 'playwright/.auth/user.json',
-   headless: process.env.CI ? true : false,
+   headless: process.env.CI ? true : true,
       /* viewport: null,
     launchOptions: {
       args: ['--start-maximized']
@@ -85,7 +85,7 @@ video: 'retain-on-failure',
        name: 'Mobile Chrome',
        use: { ...devices['Pixel 5'],
         storageState: 'playwright/.auth/user.json',
-        headless: process.env.CI ? true : false,
+        headless: process.env.CI ? true : true,
 
 
         },
@@ -95,7 +95,7 @@ video: 'retain-on-failure',
        name: 'Mobile Safari',
        use: { ...devices['iPhone 12'] ,
         storageState: 'playwright/.auth/user.json',
-         headless: process.env.CI ? true : false,
+         headless: process.env.CI ? true : true,
 
 
        },

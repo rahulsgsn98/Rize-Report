@@ -9,6 +9,7 @@ export class ReportPanelPage {
 
     readonly sidebartoggle:Locator;
     readonly loanofficerfundedlink:Locator;
+    readonly loanofficerActivelink:Locator
 
 
 
@@ -19,6 +20,8 @@ export class ReportPanelPage {
         this.sidebartoggle = page.locator('button.sidebar-toggle');
 
         this.loanofficerfundedlink = page.getByText('Loan Officer - Funded', { exact: true });
+
+        this.loanofficerActivelink = page.getByRole('link', { name: 'Loan Officer - Active' })
 
 
 
@@ -34,5 +37,13 @@ export class ReportPanelPage {
 
         
     }
+
+async clickLoanOfficerActiveLink(): Promise<void> {
+        await this.page.locator('a').filter({ hasText: 'Loan Officer - Active' }).first().waitFor();
+        await  this.loanofficerActivelink.click();
+
+        
+    }
+
 
 }
