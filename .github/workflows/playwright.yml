@@ -11,7 +11,7 @@ test:
 timeout-minutes: 60
 runs-on: windows-latest
 
-```
+ ```
 strategy:
   fail-fast: false
   matrix:
@@ -42,14 +42,14 @@ steps:
       name: blob-report-${{ matrix.shard }}
       path: blob-report
       retention-days: 7
-```
+       ```
 
 merge-reports:
 if: always()
 needs: test
 runs-on: windows-latest
 
-```
+ ```
 steps:
   - name: Checkout Repository
     uses: actions/checkout@v4
@@ -76,4 +76,4 @@ steps:
       name: playwright-report
       path: playwright-report
       retention-days: 30
-```
+       ```
