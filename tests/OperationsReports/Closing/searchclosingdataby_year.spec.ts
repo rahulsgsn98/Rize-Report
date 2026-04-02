@@ -1,0 +1,34 @@
+import { test, expect } from '@playwright/test';
+import { ReportPanelPage } from '@pages/reportpanelpage';
+import { ClosingPage } from '@pages/OperationsReportsPages/Closingpage';
+import { TestConfig } from '@config';
+import { handleContinueLogin } from "@utils/sessionGuard";
+
+const targetYear: any = 2026;
+
+test(`Search Closing by year: ${targetYear}`, async ({ page }) => {
+
+  test.slow();
+
+  const config = new TestConfig();
+  const closingPage = new ClosingPage(page);
+  const reportPanelPage = new ReportPanelPage(page);
+
+  await page.goto(config.appUrl, {
+    waitUntil: 'domcontentloaded',
+    timeout: 60000
+  });
+  await handleContinueLogin(page);
+
+  const appRoot = page.locator('#app');
+
+  await appRoot.waitFor({ state: 'visible', timeout: 30000 });
+
+  await reportPanelPage.clickSidebarToggle();
+  await reportPanelPage.clickClosingLink();
+
+  await closingPage.selectYear(targetYear);
+
+  await closingPage.verifyYearData(targetYear);
+
+});

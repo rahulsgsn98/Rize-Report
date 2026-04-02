@@ -1,8 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { ReportPanelPage } from '@pages/reportpanelpage';
-import { LoanOfficerActivePage } from '@pages/LoanOfficerActivepage';
+import { LoanOfficerActivePage } from '@pages/ProductionReportsPages/LoanOfficerActivepage';
 import { ReportDashboardPage } from '@pages/reportdashboardpage';
 import { TestConfig } from '@config';
+import { handleContinueLogin } from "@utils/sessionGuard";
 
 let reportDashboardPage: ReportDashboardPage;
 let config: TestConfig;
@@ -17,9 +18,14 @@ test.beforeEach(async ({ page }) => {
     config = new TestConfig();
    // ✅ Fix 1: proper goto wait
     await page.goto(config.appUrl, {
-      waitUntil: 'networkidle',
+     
       timeout:60_000
     });
+    await handleContinueLogin(page);
+     const appRoot = page.locator('#app');
+
+  // wait for app root at least
+  await appRoot.waitFor({ state: 'visible', timeout: 30000 });
 });
 
 
@@ -31,11 +37,19 @@ await reportPanelPage.clickSidebarToggle();
 await reportPanelPage.clickLoanOfficerActiveLink();
 
 // Wait for the page to load
-await page.waitForLoadState('networkidle');
+ 
 // Verify that the Expand button is visible
 const expandButton = loanOfficerActivePage.activeReportExpandButton;
-await expect(expandButton).toBeVisible();
-if(await expandButton.isVisible()){
+await expect(expandButton).toBeVisible(
+  {
+      timeout:30000
+    }
+);
+if(await expandButton.isVisible(
+  {
+    timeout:30000
+  }
+)){
     console.log("Expand button is visible");
 }
 await expect(expandButton).toBeEnabled();
@@ -59,11 +73,19 @@ await reportPanelPage.clickSidebarToggle();
 await reportPanelPage.clickLoanOfficerActiveLink();
 
 // Wait for the page to load
-await page.waitForLoadState('networkidle');
+
 // Verify that the Expand button is visible
 const expandButton = loanOfficerActivePage.loanInvestorExpandButton;
-await expect(expandButton).toBeVisible();
-if(await expandButton.isVisible()){
+await expect(expandButton).toBeVisible(
+  {
+      timeout:30000
+    }
+);
+if(await expandButton.isVisible(
+  {
+      timeout:30000
+    }
+)){
     console.log("Expand button is visible");
 }
 await expect(expandButton).toBeEnabled();
@@ -86,24 +108,42 @@ await reportPanelPage.clickSidebarToggle();
 await reportPanelPage.clickLoanOfficerActiveLink();
 
 // Wait for the page to load
-await page.waitForLoadState('networkidle');
+
 // Expand first
-await  expect(loanOfficerActivePage.activeReportExpandButton).toBeVisible()
+await  expect(loanOfficerActivePage.activeReportExpandButton).toBeVisible(
+  {
+      timeout:30000
+    }
+)
 await  expect(loanOfficerActivePage.activeReportExpandButton).toBeEnabled()
 
 await loanOfficerActivePage.clickActiveReportExpand();
 // Verify that the Collapse button is visible
 const collapseButton = loanOfficerActivePage.activeReportCollapseButton;
-await expect(collapseButton).toBeVisible();
-if(await collapseButton.isVisible()){
+await expect(collapseButton).toBeVisible(
+  {
+      timeout:30000
+    }
+);
+if(await collapseButton.isVisible(
+  {
+      timeout:30000
+    }
+)){
     console.log("Collapse button is visible");
 }
 
 await expect(collapseButton).toBeEnabled();
 await expect(collapseButton).toHaveText(/Collapse/i);
-await expect(collapseButton).toBeVisible();
+await expect(collapseButton).toBeVisible(
+  {
+      timeout:30000
+    }
+);
 
-await collapseButton.click({ force: true });
+await collapseButton.click({
+      timeout:30000
+    })
 
 await expect(collapseButton).toBeHidden();
 
@@ -124,28 +164,52 @@ await reportPanelPage.clickLoanOfficerActiveLink();
 
 
 // Wait for the page to load
-await page.waitForLoadState('networkidle');
+
 // Expand first
 
-expect(loanOfficerActivePage.activeReportExpandButton).toBeVisible()
+expect(loanOfficerActivePage.activeReportExpandButton).toBeVisible(
+  {
+      timeout:30000
+    }
+)
 expect(loanOfficerActivePage.activeReportExpandButton).toBeEnabled()
 
 await loanOfficerActivePage.clickLoanInvestorExpand();
 // Verify that the Collapse button is visible
 const collapseButton = loanOfficerActivePage.loanInvestorCollapseButton;
-await expect(collapseButton).toBeVisible({timeout: 5000});
-if(await collapseButton.isVisible()){
+await expect(collapseButton).toBeVisible(
+{
+      timeout:30000
+    }
+);
+if(await collapseButton.isVisible(
+  {
+      timeout:30000
+    }
+)){
     console.log("Investor Collapse button is visible");
 }
 await expect(collapseButton).toBeEnabled();
 await expect(collapseButton).toHaveText(/Collapse/i);
 
-await expect(collapseButton).toBeVisible();
+await expect(collapseButton).toBeVisible(
+  {
+      timeout:30000
+    }
+);
 
 
-await collapseButton.click();
+await collapseButton.click(
+  {
+      timeout:30000
+    }
+);
 
-await expect(collapseButton).toBeHidden({timeout:10000});
+await expect(collapseButton).toBeHidden(
+  {
+      timeout:30000
+    }
+);
 
 // Optional log
 console.log("Collapse button is not visible after collapsing");

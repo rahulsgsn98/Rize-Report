@@ -101,4 +101,24 @@ if (fs.existsSync(authFile)) {
   await context.storageState({ path: authFile });
 
   console.log('🚀 Session saved successfully:', authFile);
+
+
+
+  /*  // --- NEW CONDITION : Continue to Login after MFA ---
+  const continueAfterMfa = page.getByRole('button', { name: /Continue to Login/i });
+
+  if (await continueAfterMfa.isVisible({ timeout: 5000 }).catch(() => false)) {
+    console.log('Continue to Login detected after MFA');
+    await continueAfterMfa.click();
+  }
+
+  console.log('⚠️ Waiting for dashboard...');
+
+  await page.waitForLoadState('domcontentloaded');
+  await expect(welcomeHeading).toBeVisible({ timeout: 120000 });
+
+  await context.storageState({ path: authFile });
+
+  console.log('🚀 Session saved successfully:', authFile); */
 });
+

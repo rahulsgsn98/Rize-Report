@@ -1,8 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { ReportPanelPage } from '@pages/reportpanelpage';
-import { LoanOfficerFundedPage } from '@pages/LoanOfficerFundedpage';
+import { LoanOfficerFundedPage } from '@pages/ProductionReportsPages/LoanOfficerFundedpage';
 import { ReportDashboardPage } from '@pages/reportdashboardpage';
 import { TestConfig } from '@config';
+import { handleContinueLogin } from "@utils/sessionGuard";
 
 
 
@@ -13,9 +14,19 @@ test.beforeEach(async ({ page }) => {
 
     reportDashboardPage = new ReportDashboardPage(page);
     config = new TestConfig();
-    await page.goto(config.appUrl);
+    await page.goto(config.appUrl,{
+        waitUntil: 'domcontentloaded',
+        timeout:90_000
+    }
+        
+        
+    );
+    await handleContinueLogin(page);
 
-    await page.waitForLoadState('networkidle');
+   const appRoot = page.locator('#app');
+
+  // wait for app root at least
+  await appRoot.waitFor({ state: 'visible', timeout: 30000 });
 
 });
 

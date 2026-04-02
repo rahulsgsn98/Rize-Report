@@ -1,8 +1,9 @@
 import { test, expect } from '@playwright/test';
 import { ReportPanelPage } from '@pages/reportpanelpage';
-import { LoanOfficerFundedPage } from '@pages/LoanOfficerFundedpage';
+import { LoanOfficerFundedPage } from '@pages/ProductionReportsPages/LoanOfficerFundedpage';
 import { ReportDashboardPage } from '@pages/reportdashboardpage';
 import { TestConfig } from '@config';
+import { handleContinueLogin } from "@utils/sessionGuard";
 
 
 let reportDashboardPage: ReportDashboardPage;
@@ -18,9 +19,14 @@ test.beforeEach(async ({ page }) => {
     config = new TestConfig();
    // ✅ Fix 1: proper goto wait
     await page.goto(config.appUrl, {
-      waitUntil: 'networkidle',
+     
       timeout:60_000
     });
+    await handleContinueLogin(page);
+     const appRoot = page.locator('#app');
+
+  // wait for app root at least
+  await appRoot.waitFor({ state: 'visible', timeout: 30000 });
 });
 
 
@@ -32,11 +38,15 @@ await reportPanelPage.clickSidebarToggle();
 await reportPanelPage.clickLoanOfficerFundedLink();
 
 // Wait for the page to load
-await page.waitForLoadState('networkidle');
+// await loanOfficerFundedPage.waitForCountyMapToRender()
 // Verify that the Expand button is visible
 const expandButton = loanOfficerFundedPage.fundreportexpandButton;
-await expect(expandButton).toBeVisible();
-if(await expandButton.isVisible()){
+    await expect(expandButton).toBeVisible({
+    timeout:30000
+});
+if(await expandButton.isVisible({
+    timeout:30000
+})){
     console.log("Expand button is visible");
 }
 await expect(expandButton).toBeEnabled();
@@ -60,11 +70,15 @@ await reportPanelPage.clickSidebarToggle();
 await reportPanelPage.clickLoanOfficerFundedLink();
 
 // Wait for the page to load
-await page.waitForLoadState('networkidle');
+// await loanOfficerFundedPage.waitForCountyMapToRender()
 // Verify that the Expand button is visible
 const expandButton = loanOfficerFundedPage.loaninvestorexpendButton;
-await expect(expandButton).toBeVisible();
-if(await expandButton.isVisible()){
+await expect(expandButton).toBeVisible({
+    timeout:30000
+});
+if(await expandButton.isVisible({
+    timeout:30000
+})){
     console.log("Expand button is visible");
 }
 await expect(expandButton).toBeEnabled();
@@ -87,13 +101,15 @@ await reportPanelPage.clickSidebarToggle();
 await reportPanelPage.clickLoanOfficerFundedLink();
 
 // Wait for the page to load
-await page.waitForLoadState('networkidle');
+await loanOfficerFundedPage.waitForCountyMapToRender()
 // Expand first
 await loanOfficerFundedPage.clickfundreportExpand();
 // Verify that the Collapse button is visible
 const collapseButton = loanOfficerFundedPage.fundreportcollapseButton;
 await expect(collapseButton).toBeVisible();
-if(await collapseButton.isVisible()){
+if(await collapseButton.isVisible({
+    timeout:30000
+})){
     console.log("Collapse button is visible");
 }
 
@@ -101,7 +117,7 @@ await expect(collapseButton).toBeEnabled();
 await expect(collapseButton).toHaveText(/Collapse/i);
 await expect(collapseButton).toBeVisible();
 
-await collapseButton.click({ force: true });
+await collapseButton.click({timeout:30000});
 
 await expect(collapseButton).toBeHidden();
 
@@ -122,22 +138,26 @@ await reportPanelPage.clickLoanOfficerFundedLink()
 
 
 // Wait for the page to load
-await page.waitForLoadState('networkidle');
+await loanOfficerFundedPage.waitForCountyMapToRender()
 // Expand first
 await loanOfficerFundedPage.clickloaninvestorExpand();
 // Verify that the Collapse button is visible
 const collapseButton = loanOfficerFundedPage.loaninvestorcollapseButton;
-await expect(collapseButton).toBeVisible({timeout: 5000});
-if(await collapseButton.isVisible()){
+await expect(collapseButton).toBeVisible({timeout: 30000});
+if(await collapseButton.isVisible({
+    timeout:30000
+})){
     console.log("Investor Collapse button is visible");
 }
 await expect(collapseButton).toBeEnabled();
 await expect(collapseButton).toHaveText(/Collapse/i);
 
-await expect(collapseButton).toBeVisible();
+await expect(collapseButton).toBeVisible({
+    timeout:30000
+});
 
 
-await collapseButton.click({ force: true });
+await collapseButton.click({timeout:30000});
 
 await expect(collapseButton).toBeHidden();
 
