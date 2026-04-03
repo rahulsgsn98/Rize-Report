@@ -57,7 +57,7 @@ export class PostClosingPage {
 
     // Dropdowns
     this.postCloserDropdown = page.getByRole('combobox').nth(0);
-    this.monthDropdown = page.getByRole('combobox').nth(1);
+    this.monthDropdown = page.getByRole('combobox').last();
 
     // Search Boxes (scoped to their dropdown)
     this.postCloserSearchBox = this.postCloserDropdown.locator('input.multiselect__input');

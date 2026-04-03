@@ -1,0 +1,720 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - img "Rize Logo" [ref=e7]
+    - generic [ref=e10] [cursor=pointer]: AA
+  - complementary [ref=e11]:
+    - button [ref=e12] [cursor=pointer]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - heading "POST CLOSING" [level=4] [ref=e19]
+          - generic [ref=e23]:
+            - text: "Last Refreshed:"
+            - strong [ref=e24]: 03-16-2026 04:03 AM
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: Post Closer
+            - combobox [ref=e28]:
+              - generic [ref=e30]:
+                - textbox "-searchbox":
+                  - /placeholder: Select option
+                - generic [ref=e31]: Select option
+              - listbox [ref=e32]:
+                - listitem [ref=e33]:
+                  - generic [ref=e34] [cursor=pointer]: No elements found. Consider changing the search query.
+          - generic [ref=e35]:
+            - generic [ref=e36]: Channel Name
+            - combobox [expanded] [ref=e37]:
+              - textbox "-searchbox" [active] [ref=e40]:
+                - /placeholder: Select option
+                - text: January 2026
+          - generic [ref=e42]:
+            - generic [ref=e43]: Month
+            - combobox [ref=e44]:
+              - generic [ref=e46]:
+                - textbox "-searchbox":
+                  - /placeholder: Select option
+                - generic [ref=e47]: Select option
+          - generic [ref=e48]:
+            - button "Submit" [ref=e49] [cursor=pointer]
+            - button "Clear" [ref=e50] [cursor=pointer]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - heading "Operations Report" [level=4] [ref=e53]
+          - button "Expand" [ref=e54] [cursor=pointer]
+        - table [ref=e56]:
+          - rowgroup [ref=e57]:
+            - row "Post Closer Name ↑↓ Channel Name ↑↓ YTD Units ↑↓ January 2026 February 2026 March 2026 May 2025 July 2025 August 2025 October 2025 November 2025 December 2025" [ref=e58]:
+              - columnheader "Post Closer Name ↑↓" [ref=e59] [cursor=pointer]
+              - columnheader "Channel Name ↑↓" [ref=e60] [cursor=pointer]
+              - columnheader "YTD Units ↑↓" [ref=e61] [cursor=pointer]
+              - columnheader "January 2026" [ref=e62]
+              - columnheader "February 2026" [ref=e63]
+              - columnheader "March 2026" [ref=e64]
+              - columnheader "May 2025" [ref=e65]
+              - columnheader "July 2025" [ref=e66]
+              - columnheader "August 2025" [ref=e67]
+              - columnheader "October 2025" [ref=e68]
+              - columnheader "November 2025" [ref=e69]
+              - columnheader "December 2025" [ref=e70]
+            - row "Units ↑↓ CPC ↑↓ Units ↑↓ CPC ↑↓ Units ↑↓ CPC ↑↓ Units ↑↓ CPC ↑↓ Units ↑↓ CPC ↑↓ Units ↑↓ CPC ↑↓ Units ↑↓ CPC ↑↓ Units ↑↓ CPC ↑↓ Units ↑↓ CPC ↑↓" [ref=e71]:
+              - columnheader "Units ↑↓" [ref=e72] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e73]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e74] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e75]: ↑↓
+              - columnheader "Units ↑↓" [ref=e76] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e77]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e78] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e79]: ↑↓
+              - columnheader "Units ↑↓" [ref=e80] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e81]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e82] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e83]: ↑↓
+              - columnheader "Units ↑↓" [ref=e84] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e85]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e86] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e87]: ↑↓
+              - columnheader "Units ↑↓" [ref=e88] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e89]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e90] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e91]: ↑↓
+              - columnheader "Units ↑↓" [ref=e92] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e93]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e94] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e95]: ↑↓
+              - columnheader "Units ↑↓" [ref=e96] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e97]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e98] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e99]: ↑↓
+              - columnheader "Units ↑↓" [ref=e100] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e101]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e102] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e103]: ↑↓
+              - columnheader "Units ↑↓" [ref=e104] [cursor=pointer]:
+                - text: Units
+                - generic [ref=e105]: ↑↓
+              - columnheader "CPC ↑↓" [ref=e106] [cursor=pointer]:
+                - text: CPC
+                - generic [ref=e107]: ↑↓
+          - rowgroup [ref=e108]:
+            - row "Lindy Osten N/A 1 1 $4,083 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0" [ref=e109]:
+              - cell "Lindy Osten" [ref=e110]
+              - cell "N/A" [ref=e111]
+              - cell "1" [ref=e112]
+              - cell "1" [ref=e113]
+              - cell "$4,083" [ref=e114]
+              - cell "0" [ref=e115]
+              - cell "$0" [ref=e116]
+              - cell "0" [ref=e117]
+              - cell "$0" [ref=e118]
+              - cell "0" [ref=e119]
+              - cell "$0" [ref=e120]
+              - cell "0" [ref=e121]
+              - cell "$0" [ref=e122]
+              - cell "0" [ref=e123]
+              - cell "$0" [ref=e124]
+              - cell "0" [ref=e125]
+              - cell "$0" [ref=e126]
+              - cell "0" [ref=e127]
+              - cell "$0" [ref=e128]
+              - cell "0" [ref=e129]
+              - cell "$0" [ref=e130]
+            - row "Lindy Osten Delegated 24 2 $4,083 15 $1,854 1 $0 0 $0 1 $2,174 2 $4,206 1 $4,246 0 $0 2 $4,312" [ref=e131]:
+              - cell "Lindy Osten" [ref=e132]
+              - cell "Delegated" [ref=e133]
+              - cell "24" [ref=e134]
+              - cell "2" [ref=e135]
+              - cell "$4,083" [ref=e136]
+              - cell "15" [ref=e137]
+              - cell "$1,854" [ref=e138]
+              - cell "1" [ref=e139]
+              - cell "$0" [ref=e140]
+              - cell "0" [ref=e141]
+              - cell "$0" [ref=e142]
+              - cell "1" [ref=e143]
+              - cell "$2,174" [ref=e144]
+              - cell "2" [ref=e145]
+              - cell "$4,206" [ref=e146]
+              - cell "1" [ref=e147]
+              - cell "$4,246" [ref=e148]
+              - cell "0" [ref=e149]
+              - cell "$0" [ref=e150]
+              - cell "2" [ref=e151]
+              - cell "$4,312" [ref=e152]
+            - row "Nachalie Aponte Guzman Delegated 23 2 $6,187 16 $3,363 5 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0" [ref=e153]:
+              - cell "Nachalie Aponte Guzman" [ref=e154]
+              - cell "Delegated" [ref=e155]
+              - cell "23" [ref=e156]
+              - cell "2" [ref=e157]
+              - cell "$6,187" [ref=e158]
+              - cell "16" [ref=e159]
+              - cell "$3,363" [ref=e160]
+              - cell "5" [ref=e161]
+              - cell "$0" [ref=e162]
+              - cell "0" [ref=e163]
+              - cell "$0" [ref=e164]
+              - cell "0" [ref=e165]
+              - cell "$0" [ref=e166]
+              - cell "0" [ref=e167]
+              - cell "$0" [ref=e168]
+              - cell "0" [ref=e169]
+              - cell "$0" [ref=e170]
+              - cell "0" [ref=e171]
+              - cell "$0" [ref=e172]
+              - cell "0" [ref=e173]
+              - cell "$0" [ref=e174]
+            - row "Nina Holz Delegated 21 1 $4,078 10 $1,816 7 $0 0 $0 0 $0 0 $0 0 $0 0 $0 3 $2,062" [ref=e175]:
+              - cell "Nina Holz" [ref=e176]
+              - cell "Delegated" [ref=e177]
+              - cell "21" [ref=e178]
+              - cell "1" [ref=e179]
+              - cell "$4,078" [ref=e180]
+              - cell "10" [ref=e181]
+              - cell "$1,816" [ref=e182]
+              - cell "7" [ref=e183]
+              - cell "$0" [ref=e184]
+              - cell "0" [ref=e185]
+              - cell "$0" [ref=e186]
+              - cell "0" [ref=e187]
+              - cell "$0" [ref=e188]
+              - cell "0" [ref=e189]
+              - cell "$0" [ref=e190]
+              - cell "0" [ref=e191]
+              - cell "$0" [ref=e192]
+              - cell "0" [ref=e193]
+              - cell "$0" [ref=e194]
+              - cell "3" [ref=e195]
+              - cell "$2,062" [ref=e196]
+            - row "Lindy Osten Non-Delegated 22 2 $4,083 10 $1,854 7 $0 1 $2,034 0 $0 0 $0 1 $4,246 1 $3,688 0 $0" [ref=e197]:
+              - cell "Lindy Osten" [ref=e198]
+              - cell "Non-Delegated" [ref=e199]
+              - cell "22" [ref=e200]
+              - cell "2" [ref=e201]
+              - cell "$4,083" [ref=e202]
+              - cell "10" [ref=e203]
+              - cell "$1,854" [ref=e204]
+              - cell "7" [ref=e205]
+              - cell "$0" [ref=e206]
+              - cell "1" [ref=e207]
+              - cell "$2,034" [ref=e208]
+              - cell "0" [ref=e209]
+              - cell "$0" [ref=e210]
+              - cell "0" [ref=e211]
+              - cell "$0" [ref=e212]
+              - cell "1" [ref=e213]
+              - cell "$4,246" [ref=e214]
+              - cell "1" [ref=e215]
+              - cell "$3,688" [ref=e216]
+              - cell "0" [ref=e217]
+              - cell "$0" [ref=e218]
+            - row "Nachalie Aponte Guzman Non-Delegated 12 1 $6,187 8 $3,363 3 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0" [ref=e219]:
+              - cell "Nachalie Aponte Guzman" [ref=e220]
+              - cell "Non-Delegated" [ref=e221]
+              - cell "12" [ref=e222]
+              - cell "1" [ref=e223]
+              - cell "$6,187" [ref=e224]
+              - cell "8" [ref=e225]
+              - cell "$3,363" [ref=e226]
+              - cell "3" [ref=e227]
+              - cell "$0" [ref=e228]
+              - cell "0" [ref=e229]
+              - cell "$0" [ref=e230]
+              - cell "0" [ref=e231]
+              - cell "$0" [ref=e232]
+              - cell "0" [ref=e233]
+              - cell "$0" [ref=e234]
+              - cell "0" [ref=e235]
+              - cell "$0" [ref=e236]
+              - cell "0" [ref=e237]
+              - cell "$0" [ref=e238]
+              - cell "0" [ref=e239]
+              - cell "$0" [ref=e240]
+            - row "Nina Holz Non-Delegated 3 0 $0 2 $1,816 1 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0" [ref=e241]:
+              - cell "Nina Holz" [ref=e242]
+              - cell "Non-Delegated" [ref=e243]
+              - cell "3" [ref=e244]
+              - cell "0" [ref=e245]
+              - cell "$0" [ref=e246]
+              - cell "2" [ref=e247]
+              - cell "$1,816" [ref=e248]
+              - cell "1" [ref=e249]
+              - cell "$0" [ref=e250]
+              - cell "0" [ref=e251]
+              - cell "$0" [ref=e252]
+              - cell "0" [ref=e253]
+              - cell "$0" [ref=e254]
+              - cell "0" [ref=e255]
+              - cell "$0" [ref=e256]
+              - cell "0" [ref=e257]
+              - cell "$0" [ref=e258]
+              - cell "0" [ref=e259]
+              - cell "$0" [ref=e260]
+              - cell "0" [ref=e261]
+              - cell "$0" [ref=e262]
+          - rowgroup [ref=e263]:
+            - row "Total 106 9 $4,783.78 61 $2,440.23 24 $0 1 $2,034 1 $2,174 2 $4,206 2 $4,246 1 $3,688 5 $2,962" [ref=e264]:
+              - cell "Total" [ref=e265]
+              - cell [ref=e266]
+              - cell "106" [ref=e267]
+              - cell "9" [ref=e268]
+              - cell "$4,783.78" [ref=e269]
+              - cell "61" [ref=e270]
+              - cell "$2,440.23" [ref=e271]
+              - cell "24" [ref=e272]
+              - cell "$0" [ref=e273]
+              - cell "1" [ref=e274]
+              - cell "$2,034" [ref=e275]
+              - cell "1" [ref=e276]
+              - cell "$2,174" [ref=e277]
+              - cell "2" [ref=e278]
+              - cell "$4,206" [ref=e279]
+              - cell "2" [ref=e280]
+              - cell "$4,246" [ref=e281]
+              - cell "1" [ref=e282]
+              - cell "$3,688" [ref=e283]
+              - cell "5" [ref=e284]
+              - cell "$2,962" [ref=e285]
+      - generic [ref=e287]:
+        - heading "Manager Report" [level=4] [ref=e289]
+        - table [ref=e291]:
+          - rowgroup [ref=e292]:
+            - row "Name January 2025 February 2025 March 2025 April 2025 May 2025 June 2025 July 2025 August 2025 September 2025 October 2025 November 2025 December 2025 January 2026 February 2026 March 2026" [ref=e293]:
+              - columnheader "Name" [ref=e294]
+              - columnheader "January 2025" [ref=e295]
+              - columnheader "February 2025" [ref=e296]
+              - columnheader "March 2025" [ref=e297]
+              - columnheader "April 2025" [ref=e298]
+              - columnheader "May 2025" [ref=e299]
+              - columnheader "June 2025" [ref=e300]
+              - columnheader "July 2025" [ref=e301]
+              - columnheader "August 2025" [ref=e302]
+              - columnheader "September 2025" [ref=e303]
+              - columnheader "October 2025" [ref=e304]
+              - columnheader "November 2025" [ref=e305]
+              - columnheader "December 2025" [ref=e306]
+              - columnheader "January 2026" [ref=e307]
+              - columnheader "February 2026" [ref=e308]
+              - columnheader "March 2026" [ref=e309]
+            - row "Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll Units Payroll" [ref=e310]:
+              - columnheader "Units" [ref=e311]
+              - columnheader "Payroll" [ref=e312]
+              - columnheader "Units" [ref=e313]
+              - columnheader "Payroll" [ref=e314]
+              - columnheader "Units" [ref=e315]
+              - columnheader "Payroll" [ref=e316]
+              - columnheader "Units" [ref=e317]
+              - columnheader "Payroll" [ref=e318]
+              - columnheader "Units" [ref=e319]
+              - columnheader "Payroll" [ref=e320]
+              - columnheader "Units" [ref=e321]
+              - columnheader "Payroll" [ref=e322]
+              - columnheader "Units" [ref=e323]
+              - columnheader "Payroll" [ref=e324]
+              - columnheader "Units" [ref=e325]
+              - columnheader "Payroll" [ref=e326]
+              - columnheader "Units" [ref=e327]
+              - columnheader "Payroll" [ref=e328]
+              - columnheader "Units" [ref=e329]
+              - columnheader "Payroll" [ref=e330]
+              - columnheader "Units" [ref=e331]
+              - columnheader "Payroll" [ref=e332]
+              - columnheader "Units" [ref=e333]
+              - columnheader "Payroll" [ref=e334]
+              - columnheader "Units" [ref=e335]
+              - columnheader "Payroll" [ref=e336]
+              - columnheader "Units" [ref=e337]
+              - columnheader "Payroll" [ref=e338]
+              - columnheader "Units" [ref=e339]
+              - columnheader "Payroll" [ref=e340]
+          - rowgroup [ref=e341]:
+            - row "Fausto 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $23,826 0 $6,997 0 $3,498 0 $7,023 0 $248 0 $0" [ref=e342]:
+              - cell "Fausto" [ref=e343]
+              - cell "0" [ref=e344]
+              - cell "$0" [ref=e345]
+              - cell "0" [ref=e346]
+              - cell "$0" [ref=e347]
+              - cell "0" [ref=e348]
+              - cell "$0" [ref=e349]
+              - cell "0" [ref=e350]
+              - cell "$0" [ref=e351]
+              - cell "0" [ref=e352]
+              - cell "$0" [ref=e353]
+              - cell "0" [ref=e354]
+              - cell "$0" [ref=e355]
+              - cell "0" [ref=e356]
+              - cell "$0" [ref=e357]
+              - cell "0" [ref=e358]
+              - cell "$0" [ref=e359]
+              - cell "0" [ref=e360]
+              - cell "$0" [ref=e361]
+              - cell "0" [ref=e362]
+              - cell "$23,826" [ref=e363]
+              - cell "0" [ref=e364]
+              - cell "$6,997" [ref=e365]
+              - cell "0" [ref=e366]
+              - cell "$3,498" [ref=e367]
+              - cell "0" [ref=e368]
+              - cell "$7,023" [ref=e369]
+              - cell "0" [ref=e370]
+              - cell "$248" [ref=e371]
+              - cell "0" [ref=e372]
+              - cell "$0" [ref=e373]
+            - row "Susan 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $2,062 0 $3,913 0 $4,294 0 $3,725 0 $2,002 0 $4,124 0 $1,871 0 $0" [ref=e374]:
+              - cell "Susan" [ref=e375]
+              - cell "0" [ref=e376]
+              - cell "$0" [ref=e377]
+              - cell "0" [ref=e378]
+              - cell "$0" [ref=e379]
+              - cell "0" [ref=e380]
+              - cell "$0" [ref=e381]
+              - cell "0" [ref=e382]
+              - cell "$0" [ref=e383]
+              - cell "0" [ref=e384]
+              - cell "$0" [ref=e385]
+              - cell "0" [ref=e386]
+              - cell "$0" [ref=e387]
+              - cell "0" [ref=e388]
+              - cell "$0" [ref=e389]
+              - cell "0" [ref=e390]
+              - cell "$2,062" [ref=e391]
+              - cell "0" [ref=e392]
+              - cell "$3,913" [ref=e393]
+              - cell "0" [ref=e394]
+              - cell "$4,294" [ref=e395]
+              - cell "0" [ref=e396]
+              - cell "$3,725" [ref=e397]
+              - cell "0" [ref=e398]
+              - cell "$2,002" [ref=e399]
+              - cell "0" [ref=e400]
+              - cell "$4,124" [ref=e401]
+              - cell "0" [ref=e402]
+              - cell "$1,871" [ref=e403]
+              - cell "0" [ref=e404]
+              - cell "$0" [ref=e405]
+          - rowgroup [ref=e406]:
+            - row "Total 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $0 0 $2,062 0 $3,913 0 $28,121 0 $10,722 0 $5,501 0 $11,148 0 $2,119 0 $0" [ref=e407]:
+              - cell "Total" [ref=e408]
+              - cell "0" [ref=e409]
+              - cell "$0" [ref=e410]
+              - cell "0" [ref=e411]
+              - cell "$0" [ref=e412]
+              - cell "0" [ref=e413]
+              - cell "$0" [ref=e414]
+              - cell "0" [ref=e415]
+              - cell "$0" [ref=e416]
+              - cell "0" [ref=e417]
+              - cell "$0" [ref=e418]
+              - cell "0" [ref=e419]
+              - cell "$0" [ref=e420]
+              - cell "0" [ref=e421]
+              - cell "$0" [ref=e422]
+              - cell "0" [ref=e423]
+              - cell "$2,062" [ref=e424]
+              - cell "0" [ref=e425]
+              - cell "$3,913" [ref=e426]
+              - cell "0" [ref=e427]
+              - cell "$28,121" [ref=e428]
+              - cell "0" [ref=e429]
+              - cell "$10,722" [ref=e430]
+              - cell "0" [ref=e431]
+              - cell "$5,501" [ref=e432]
+              - cell "0" [ref=e433]
+              - cell "$11,148" [ref=e434]
+              - cell "0" [ref=e435]
+              - cell "$2,119" [ref=e436]
+              - cell "0" [ref=e437]
+              - cell "$0" [ref=e438]
+      - generic [ref=e440]:
+        - heading "Dwell Time" [level=5] [ref=e441]
+        - generic [ref=e442]:
+          - table [ref=e445]:
+            - rowgroup [ref=e446]:
+              - row "Dwell Time Range ↑↓ Percentage ↑↓ Units ↑↓" [ref=e447]:
+                - columnheader "Dwell Time Range ↑↓" [ref=e448] [cursor=pointer]:
+                  - text: Dwell Time Range
+                  - generic [ref=e449]: ↑↓
+                - columnheader "Percentage ↑↓" [ref=e450] [cursor=pointer]:
+                  - text: Percentage
+                  - generic [ref=e451]: ↑↓
+                - columnheader "Units ↑↓" [ref=e452] [cursor=pointer]:
+                  - text: Units
+                  - generic [ref=e453]: ↑↓
+            - rowgroup [ref=e454]:
+              - row "21-25 3.0% 4" [ref=e455]:
+                - cell "21-25" [ref=e456]
+                - cell "3.0%" [ref=e457]
+                - cell "4" [ref=e458]
+              - row "26-30 14.0% 15" [ref=e459]:
+                - cell "26-30" [ref=e460]
+                - cell "14.0%" [ref=e461]
+                - cell "15" [ref=e462]
+              - row "31-35 32.0% 34" [ref=e463]:
+                - cell "31-35" [ref=e464]
+                - cell "32.0%" [ref=e465]
+                - cell "34" [ref=e466]
+              - row "36-40 10.0% 11" [ref=e467]:
+                - cell "36-40" [ref=e468]
+                - cell "10.0%" [ref=e469]
+                - cell "11" [ref=e470]
+              - row "41-45 4.0% 5" [ref=e471]:
+                - cell "41-45" [ref=e472]
+                - cell "4.0%" [ref=e473]
+                - cell "5" [ref=e474]
+              - row "46-50 7.0% 8" [ref=e475]:
+                - cell "46-50" [ref=e476]
+                - cell "7.0%" [ref=e477]
+                - cell "8" [ref=e478]
+              - row "51+ (Infinity) 30.0% 29" [ref=e479]:
+                - cell "51+ (Infinity)" [ref=e480]
+                - cell "30.0%" [ref=e481]
+                - cell "29" [ref=e482]
+            - rowgroup [ref=e483]:
+              - row "Total 100% 106" [ref=e484]:
+                - cell "Total" [ref=e485]
+                - cell "100%" [ref=e486]
+                - cell "106" [ref=e487]
+          - generic [ref=e489]:
+            - heading [level=5]
+      - generic [ref=e492]:
+        - generic [ref=e493]:
+          - heading "Loan Channel" [level=5] [ref=e494]
+          - generic [ref=e495]:
+            - table [ref=e498]:
+              - rowgroup [ref=e499]:
+                - row "Loan Channel ↑↓ Percentage ↑↓ Units ↑↓" [ref=e500]:
+                  - columnheader "Loan Channel ↑↓" [ref=e501] [cursor=pointer]:
+                    - text: Loan Channel
+                    - generic [ref=e502]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e503] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e504]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e505] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e506]: ↑↓
+              - rowgroup [ref=e507]:
+                - row "Non-Delegated 34.0% 37" [ref=e508]:
+                  - cell "Non-Delegated" [ref=e509]
+                  - cell "34.0%" [ref=e510]
+                  - cell "37" [ref=e511]
+                - row "Delegated 64.0% 68" [ref=e512]:
+                  - cell "Delegated" [ref=e513]
+                  - cell "64.0%" [ref=e514]
+                  - cell "68" [ref=e515]
+                - row "N/A 2.0% 1" [ref=e516]:
+                  - cell "N/A" [ref=e517]
+                  - cell "2.0%" [ref=e518]
+                  - cell "1" [ref=e519]
+              - rowgroup [ref=e520]:
+                - row "Total 100% 106" [ref=e521]:
+                  - cell "Total" [ref=e522]
+                  - cell "100%" [ref=e523]
+                  - cell "106" [ref=e524]
+            - generic [ref=e526]:
+              - heading [level=5]
+        - generic [ref=e529]:
+          - heading "Loan Purpose" [level=5] [ref=e530]
+          - generic [ref=e531]:
+            - table [ref=e534]:
+              - rowgroup [ref=e535]:
+                - row "Loan Purpose ↑↓ Percentage ↑↓ Units ↑↓" [ref=e536]:
+                  - columnheader "Loan Purpose ↑↓" [ref=e537] [cursor=pointer]:
+                    - text: Loan Purpose
+                    - generic [ref=e538]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e539] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e540]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e541] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e542]: ↑↓
+              - rowgroup [ref=e543]:
+                - row "Refinance 24.0% 26" [ref=e544]:
+                  - cell "Refinance" [ref=e545]
+                  - cell "24.0%" [ref=e546]
+                  - cell "26" [ref=e547]
+                - row "Purchase 76.0% 80" [ref=e548]:
+                  - cell "Purchase" [ref=e549]
+                  - cell "76.0%" [ref=e550]
+                  - cell "80" [ref=e551]
+              - rowgroup [ref=e552]:
+                - row "Total 100% 106" [ref=e553]:
+                  - cell "Total" [ref=e554]
+                  - cell "100%" [ref=e555]
+                  - cell "106" [ref=e556]
+            - generic [ref=e558]:
+              - heading [level=5]
+      - generic [ref=e562]:
+        - heading "Loan Investor" [level=5] [ref=e564]
+        - generic [ref=e565]:
+          - table [ref=e568]:
+            - rowgroup [ref=e569]:
+              - row "Investor ↑↓ Percentage ↑↓ Units ↑↓" [ref=e570]:
+                - columnheader "Investor ↑↓" [ref=e571] [cursor=pointer]:
+                  - text: Investor
+                  - generic [ref=e572]: ↑↓
+                - columnheader "Percentage ↑↓" [ref=e573] [cursor=pointer]:
+                  - text: Percentage
+                  - generic [ref=e574]: ↑↓
+                - columnheader "Units ↑↓" [ref=e575] [cursor=pointer]:
+                  - text: Units
+                  - generic [ref=e576]: ↑↓
+            - rowgroup [ref=e577]:
+              - row "AD Mortgage 0.0% 1" [ref=e578]:
+                - cell "AD Mortgage" [ref=e579]
+                - cell "0.0%" [ref=e580]
+                - cell "1" [ref=e581]
+              - row "AFR / eLend 0.0% 1" [ref=e582]:
+                - cell "AFR / eLend" [ref=e583]
+                - cell "0.0%" [ref=e584]
+                - cell "1" [ref=e585]
+              - row "American Heritage Lending 0.0% 1" [ref=e586]:
+                - cell "American Heritage Lending" [ref=e587]
+                - cell "0.0%" [ref=e588]
+                - cell "1" [ref=e589]
+              - row "AmeriHome 7.0% 8" [ref=e590]:
+                - cell "AmeriHome" [ref=e591]
+                - cell "7.0%" [ref=e592]
+                - cell "8" [ref=e593]
+              - row "AmeriHome Mortgage Company, LLC 0.0% 1" [ref=e594]:
+                - cell "AmeriHome Mortgage Company, LLC" [ref=e595]
+                - cell "0.0%" [ref=e596]
+                - cell "1" [ref=e597]
+              - row "Angel Oak 1.0% 2" [ref=e598]:
+                - cell "Angel Oak" [ref=e599]
+                - cell "1.0%" [ref=e600]
+                - cell "2" [ref=e601]
+              - row "Carrington Mortgage 0.0% 1" [ref=e602]:
+                - cell "Carrington Mortgage" [ref=e603]
+                - cell "0.0%" [ref=e604]
+                - cell "1" [ref=e605]
+              - row "CBC Mortgage Agency - Chenoa 2.0% 3" [ref=e606]:
+                - cell "CBC Mortgage Agency - Chenoa" [ref=e607]
+                - cell "2.0%" [ref=e608]
+                - cell "3" [ref=e609]
+              - row "Chase 0.0% 1" [ref=e610]:
+                - cell "Chase" [ref=e611]
+                - cell "0.0%" [ref=e612]
+                - cell "1" [ref=e613]
+              - row "Chase 0.0% 1" [ref=e614]:
+                - cell "Chase" [ref=e615]
+                - cell "0.0%" [ref=e616]
+                - cell "1" [ref=e617]
+              - row "Chase 1.0% 2" [ref=e618]:
+                - cell "Chase" [ref=e619]
+                - cell "1.0%" [ref=e620]
+                - cell "2" [ref=e621]
+              - row "Citi 7.0% 8" [ref=e622]:
+                - cell "Citi" [ref=e623]
+                - cell "7.0%" [ref=e624]
+                - cell "8" [ref=e625]
+              - row "Deephaven 3.0% 4" [ref=e626]:
+                - cell "Deephaven" [ref=e627]
+                - cell "3.0%" [ref=e628]
+                - cell "4" [ref=e629]
+              - row "eRESI 1.0% 2" [ref=e630]:
+                - cell "eRESI" [ref=e631]
+                - cell "1.0%" [ref=e632]
+                - cell "2" [ref=e633]
+              - row "Fifth Third Bank 28.0% 2" [ref=e634]:
+                - cell "Fifth Third Bank" [ref=e635]
+                - cell "28.0%" [ref=e636]
+                - cell "2" [ref=e637]
+              - row "Freedom 1.0% 2" [ref=e638]:
+                - cell "Freedom" [ref=e639]
+                - cell "1.0%" [ref=e640]
+                - cell "2" [ref=e641]
+              - row "Guild Mortgage 2.0% 3" [ref=e642]:
+                - cell "Guild Mortgage" [ref=e643]
+                - cell "2.0%" [ref=e644]
+                - cell "3" [ref=e645]
+              - row "Lakeview 16.0% 17" [ref=e646]:
+                - cell "Lakeview" [ref=e647]
+                - cell "16.0%" [ref=e648]
+                - cell "17" [ref=e649]
+              - row "Lakeview - Del 1.0% 2" [ref=e650]:
+                - cell "Lakeview - Del" [ref=e651]
+                - cell "1.0%" [ref=e652]
+                - cell "2" [ref=e653]
+              - row "Loan Stream 1.0% 2" [ref=e654]:
+                - cell "Loan Stream" [ref=e655]
+                - cell "1.0%" [ref=e656]
+                - cell "2" [ref=e657]
+              - row "Luxury Mortgage 2.0% 3" [ref=e658]:
+                - cell "Luxury Mortgage" [ref=e659]
+                - cell "2.0%" [ref=e660]
+                - cell "3" [ref=e661]
+              - row "NewRez 7.0% 8" [ref=e662]:
+                - cell "NewRez" [ref=e663]
+                - cell "7.0%" [ref=e664]
+                - cell "8" [ref=e665]
+              - row "NewRez 1.0% 2" [ref=e666]:
+                - cell "NewRez" [ref=e667]
+                - cell "1.0%" [ref=e668]
+                - cell "2" [ref=e669]
+              - row "NQM Funding 5.0% 6" [ref=e670]:
+                - cell "NQM Funding" [ref=e671]
+                - cell "5.0%" [ref=e672]
+                - cell "6" [ref=e673]
+              - row "Onslow Bay 2.0% 3" [ref=e674]:
+                - cell "Onslow Bay" [ref=e675]
+                - cell "2.0%" [ref=e676]
+                - cell "3" [ref=e677]
+              - row "PennyMac 7.0% 8" [ref=e678]:
+                - cell "PennyMac" [ref=e679]
+                - cell "7.0%" [ref=e680]
+                - cell "8" [ref=e681]
+              - row "PHH 0.0% 1" [ref=e682]:
+                - cell "PHH" [ref=e683]
+                - cell "0.0%" [ref=e684]
+                - cell "1" [ref=e685]
+              - row "Planet Home Lending 3.0% 4" [ref=e686]:
+                - cell "Planet Home Lending" [ref=e687]
+                - cell "3.0%" [ref=e688]
+                - cell "4" [ref=e689]
+              - row "Rocket Corr+ (Mr. Cooper) 0.0% 1" [ref=e690]:
+                - cell "Rocket Corr+ (Mr. Cooper)" [ref=e691]
+                - cell "0.0%" [ref=e692]
+                - cell "1" [ref=e693]
+              - row "Rocket Mortgage 0.0% 1" [ref=e694]:
+                - cell "Rocket Mortgage" [ref=e695]
+                - cell "0.0%" [ref=e696]
+                - cell "1" [ref=e697]
+              - row "Verus 2.0% 3" [ref=e698]:
+                - cell "Verus" [ref=e699]
+                - cell "2.0%" [ref=e700]
+                - cell "3" [ref=e701]
+              - row "Village Capital 0.0% 1" [ref=e702]:
+                - cell "Village Capital" [ref=e703]
+                - cell "0.0%" [ref=e704]
+                - cell "1" [ref=e705]
+              - row "Village Capital 0.0% 1" [ref=e706]:
+                - cell "Village Capital" [ref=e707]
+                - cell "0.0%" [ref=e708]
+                - cell "1" [ref=e709]
+            - rowgroup [ref=e710]:
+              - row "Total 100% 106" [ref=e711]:
+                - cell "Total" [ref=e712]
+                - cell "100%" [ref=e713]
+                - cell "106" [ref=e714]
+          - generic [ref=e716]:
+            - heading [level=5]
+```

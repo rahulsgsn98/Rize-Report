@@ -1,0 +1,264 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button [ref=e7] [cursor=pointer]
+      - img "Rize Logo" [ref=e9]
+    - generic [ref=e12] [cursor=pointer]: AA
+  - complementary [ref=e13]
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e19]:
+          - generic [ref=e22]:
+            - heading "POST CLOSING" [level=4] [ref=e23]
+            - generic [ref=e26]: 03-16-2026 04:03 AM
+          - button "Open Filters" [ref=e27] [cursor=pointer]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - heading "Apply Filters" [level=4] [ref=e32]
+            - button "Close" [ref=e34] [cursor=pointer]: ✕
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]: Post Closer
+              - combobox [ref=e38]:
+                - generic [ref=e40]:
+                  - textbox "-searchbox":
+                    - /placeholder: Select option
+                  - generic [ref=e41]: Select option
+            - generic [ref=e42]:
+              - generic [ref=e43]: Channel Name
+              - combobox [ref=e44]:
+                - generic [ref=e46]:
+                  - textbox "-searchbox":
+                    - /placeholder: Select option
+                  - generic [ref=e47]: Select option
+            - generic [ref=e48]:
+              - generic [ref=e49]: Month
+              - combobox [ref=e50]:
+                - generic [ref=e52]:
+                  - textbox "-searchbox":
+                    - /placeholder: Select option
+                  - generic [ref=e53]: Select option
+          - generic [ref=e54]:
+            - button "Apply" [ref=e55] [cursor=pointer]
+            - button "Clear" [ref=e56] [cursor=pointer]
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - heading "Operations Report" [level=4] [ref=e59]
+          - button "Expand" [ref=e60] [cursor=pointer]
+        - table [ref=e62]:
+          - rowgroup [ref=e63]:
+            - row "Post Closer Name ↑↓ Channel Name ↑↓":
+              - columnheader "Post Closer Name ↑↓" [ref=e64] [cursor=pointer]
+              - columnheader "Channel Name ↑↓" [ref=e65] [cursor=pointer]
+            - row [ref=e66]
+          - rowgroup [ref=e67]:
+            - row "Lindy Osten N/A" [ref=e68]:
+              - cell "Lindy Osten" [ref=e69]
+              - cell "N/A" [ref=e70]
+            - row "Lindy Osten Delegated" [ref=e71]:
+              - cell "Lindy Osten" [ref=e72]
+              - cell "Delegated" [ref=e73]
+            - row "Nachalie Aponte Guzman Delegated" [ref=e74]:
+              - cell "Nachalie Aponte Guzman" [ref=e75]
+              - cell "Delegated" [ref=e76]
+            - row "Nina Holz Delegated" [ref=e77]:
+              - cell "Nina Holz" [ref=e78]
+              - cell "Delegated" [ref=e79]
+            - row "Lindy Osten Non-Delegated" [ref=e80]:
+              - cell "Lindy Osten" [ref=e81]
+              - cell "Non-Delegated" [ref=e82]
+            - row "Nachalie Aponte Guzman Non-Delegated" [ref=e83]:
+              - cell "Nachalie Aponte Guzman" [ref=e84]
+              - cell "Non-Delegated" [ref=e85]
+            - row "Nina Holz Non-Delegated" [ref=e86]:
+              - cell "Nina Holz" [ref=e87]
+              - cell "Non-Delegated" [ref=e88]
+          - rowgroup [ref=e89]:
+            - row "Total" [ref=e90]:
+              - cell "Total" [ref=e91]
+              - cell [ref=e92]
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - heading "Manager Report" [level=4] [ref=e96]
+          - button "Expand" [ref=e97] [cursor=pointer]
+        - table [ref=e99]:
+          - rowgroup [ref=e100]:
+            - row "Name":
+              - columnheader "Name" [ref=e101]
+            - row [ref=e102]
+          - rowgroup [ref=e103]:
+            - row "Fausto" [ref=e104]:
+              - cell "Fausto" [ref=e105]
+            - row "Susan" [ref=e106]:
+              - cell "Susan" [ref=e107]
+          - rowgroup [ref=e108]:
+            - row "Total" [ref=e109]:
+              - cell "Total" [ref=e110]
+      - generic [ref=e112]:
+        - heading "Dwell Time" [level=5] [ref=e113]
+        - generic [ref=e114]:
+          - table [ref=e117]:
+            - rowgroup [ref=e118]:
+              - row "Dwell Time Range ↑↓ Percentage ↑↓ Units ↑↓" [ref=e119]:
+                - columnheader "Dwell Time Range ↑↓" [ref=e120] [cursor=pointer]:
+                  - text: Dwell Time Range
+                  - generic [ref=e121]: ↑↓
+                - columnheader "Percentage ↑↓" [ref=e122] [cursor=pointer]:
+                  - text: Percentage
+                  - generic [ref=e123]: ↑↓
+                - columnheader "Units ↑↓" [ref=e124] [cursor=pointer]:
+                  - text: Units
+                  - generic [ref=e125]: ↑↓
+            - rowgroup [ref=e126]:
+              - row "21-25 3.0% 4" [ref=e127]:
+                - cell "21-25" [ref=e128]
+                - cell "3.0%" [ref=e129]
+                - cell "4" [ref=e130]
+              - row "26-30 14.0% 15" [ref=e131]:
+                - cell "26-30" [ref=e132]
+                - cell "14.0%" [ref=e133]
+                - cell "15" [ref=e134]
+              - row "31-35 32.0% 34" [ref=e135]:
+                - cell "31-35" [ref=e136]
+                - cell "32.0%" [ref=e137]
+                - cell "34" [ref=e138]
+              - row "36-40 10.0% 11" [ref=e139]:
+                - cell "36-40" [ref=e140]
+                - cell "10.0%" [ref=e141]
+                - cell "11" [ref=e142]
+              - row "41-45 4.0% 5" [ref=e143]:
+                - cell "41-45" [ref=e144]
+                - cell "4.0%" [ref=e145]
+                - cell "5" [ref=e146]
+              - row "46-50 7.0% 8" [ref=e147]:
+                - cell "46-50" [ref=e148]
+                - cell "7.0%" [ref=e149]
+                - cell "8" [ref=e150]
+              - row "51+ (Infinity) 30.0% 29" [ref=e151]:
+                - cell "51+ (Infinity)" [ref=e152]
+                - cell "30.0%" [ref=e153]
+                - cell "29" [ref=e154]
+            - rowgroup [ref=e155]:
+              - row "Total 100% 106" [ref=e156]:
+                - cell "Total" [ref=e157]
+                - cell "100%" [ref=e158]
+                - cell "106" [ref=e159]
+          - generic [ref=e161]:
+            - heading [level=5]
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - heading "Loan Channel" [level=5] [ref=e166]
+          - generic [ref=e167]:
+            - table [ref=e170]:
+              - rowgroup [ref=e171]:
+                - row "Loan Channel ↑↓ Percentage ↑↓ Units ↑↓" [ref=e172]:
+                  - columnheader "Loan Channel ↑↓" [ref=e173] [cursor=pointer]:
+                    - text: Loan Channel
+                    - generic [ref=e174]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e175] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e176]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e177] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e178]: ↑↓
+              - rowgroup [ref=e179]:
+                - row "Non-Delegated 34.0% 37" [ref=e180]:
+                  - cell "Non-Delegated" [ref=e181]
+                  - cell "34.0%" [ref=e182]
+                  - cell "37" [ref=e183]
+                - row "Delegated 64.0% 68" [ref=e184]:
+                  - cell "Delegated" [ref=e185]
+                  - cell "64.0%" [ref=e186]
+                  - cell "68" [ref=e187]
+                - row "N/A 2.0% 1" [ref=e188]:
+                  - cell "N/A" [ref=e189]
+                  - cell "2.0%" [ref=e190]
+                  - cell "1" [ref=e191]
+              - rowgroup [ref=e192]:
+                - row "Total 100% 106" [ref=e193]:
+                  - cell "Total" [ref=e194]
+                  - cell "100%" [ref=e195]
+                  - cell "106" [ref=e196]
+            - generic [ref=e198]:
+              - heading [level=5]
+        - generic [ref=e201]:
+          - heading "Loan Purpose" [level=5] [ref=e202]
+          - generic [ref=e203]:
+            - table [ref=e206]:
+              - rowgroup [ref=e207]:
+                - row "Loan Purpose ↑↓ Percentage ↑↓ Units ↑↓" [ref=e208]:
+                  - columnheader "Loan Purpose ↑↓" [ref=e209] [cursor=pointer]:
+                    - text: Loan Purpose
+                    - generic [ref=e210]: ↑↓
+                  - columnheader "Percentage ↑↓" [ref=e211] [cursor=pointer]:
+                    - text: Percentage
+                    - generic [ref=e212]: ↑↓
+                  - columnheader "Units ↑↓" [ref=e213] [cursor=pointer]:
+                    - text: Units
+                    - generic [ref=e214]: ↑↓
+              - rowgroup [ref=e215]:
+                - row "Refinance 24.0% 26" [ref=e216]:
+                  - cell "Refinance" [ref=e217]
+                  - cell "24.0%" [ref=e218]
+                  - cell "26" [ref=e219]
+                - row "Purchase 76.0% 80" [ref=e220]:
+                  - cell "Purchase" [ref=e221]
+                  - cell "76.0%" [ref=e222]
+                  - cell "80" [ref=e223]
+              - rowgroup [ref=e224]:
+                - row "Total 100% 106" [ref=e225]:
+                  - cell "Total" [ref=e226]
+                  - cell "100%" [ref=e227]
+                  - cell "106" [ref=e228]
+            - generic [ref=e230]:
+              - heading [level=5]
+      - generic [ref=e234]:
+        - generic [ref=e235]:
+          - heading "Loan Investor" [level=5] [ref=e236]
+          - button "Expand" [ref=e237] [cursor=pointer]
+        - generic [ref=e238]:
+          - table [ref=e241]:
+            - rowgroup [ref=e242]:
+              - row "Investor ↑↓ Percentage ↑↓ Units ↑↓" [ref=e243]:
+                - columnheader "Investor ↑↓" [ref=e244] [cursor=pointer]:
+                  - text: Investor
+                  - generic [ref=e245]: ↑↓
+                - columnheader "Percentage ↑↓" [ref=e246] [cursor=pointer]:
+                  - text: Percentage
+                  - generic [ref=e247]: ↑↓
+                - columnheader "Units ↑↓" [ref=e248] [cursor=pointer]:
+                  - text: Units
+                  - generic [ref=e249]: ↑↓
+            - rowgroup [ref=e250]:
+              - row "AD Mortgage 0.0% 1" [ref=e251]:
+                - cell "AD Mortgage" [ref=e252]
+                - cell "0.0%" [ref=e253]
+                - cell "1" [ref=e254]
+              - row "AFR / eLend 0.0% 1" [ref=e255]:
+                - cell "AFR / eLend" [ref=e256]
+                - cell "0.0%" [ref=e257]
+                - cell "1" [ref=e258]
+              - row "American Heritage Lending 0.0% 1" [ref=e259]:
+                - cell "American Heritage Lending" [ref=e260]
+                - cell "0.0%" [ref=e261]
+                - cell "1" [ref=e262]
+              - row "AmeriHome 7.0% 8" [ref=e263]:
+                - cell "AmeriHome" [ref=e264]
+                - cell "7.0%" [ref=e265]
+                - cell "8" [ref=e266]
+              - row "AmeriHome Mortgage Company, LLC 0.0% 1" [ref=e267]:
+                - cell "AmeriHome Mortgage Company, LLC" [ref=e268]
+                - cell "0.0%" [ref=e269]
+                - cell "1" [ref=e270]
+            - rowgroup [ref=e271]:
+              - row "Total 100% 106" [ref=e272]:
+                - cell "Total" [ref=e273]
+                - cell "100%" [ref=e274]
+                - cell "106" [ref=e275]
+          - generic [ref=e277]:
+            - heading [level=5]
+```
