@@ -112,6 +112,8 @@ jobs:
       - name: Download blob reports
         uses: actions/download-artifact@v4
         with:
+          pattern: blob-report-*
+          merge-multiple: true
           path: blob-report
 
       - name: Download Allure results
