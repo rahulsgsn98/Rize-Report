@@ -191,11 +191,11 @@ export class WarehouseTrackingPage {
     ]);
 
     if (await this.noRecordFoundMessage.isVisible({ timeout: 5000 }).catch(() => false)) {
-      console.log('⚠️ No record found of date range');
+      console.log('?? No record found of date range');
       return 'noRecord';
     }
 
-    console.log('📊 Secondary Table is visible');
+    console.log('?? Secondary Table is visible');
     return 'table';
   }
 
@@ -203,10 +203,10 @@ export class WarehouseTrackingPage {
   async clickRefresh(): Promise<void> {
     if (await this.refreshButtonDesktop.isVisible({ timeout: 30000 }).catch(() => false)) {
       await this.refreshButtonDesktop.click({ timeout: 30000 });
-      console.log('🔄 Refresh button (desktop) clicked');
+      console.log('?? Refresh button (desktop) clicked');
     } else if (await this.refreshButtonMobile.isVisible({ timeout: 30000 }).catch(() => false)) {
       await this.refreshButtonMobile.click({ timeout: 30000 });
-      console.log('🔄 Refresh button (mobile) clicked');
+      console.log('?? Refresh button (mobile) clicked');
     }
   }
 
@@ -214,10 +214,10 @@ export class WarehouseTrackingPage {
   async clickExport(): Promise<void> {
     if (await this.exportButtonDesktop.isVisible({ timeout: 30000 }).catch(() => false)) {
       await this.exportButtonDesktop.click({ timeout: 30000 });
-      console.log('📤 Export button (desktop) clicked');
+      console.log('?? Export button (desktop) clicked');
     } else if (await this.exportButtonMobile.isVisible({ timeout: 30000 }).catch(() => false)) {
       await this.exportButtonMobile.click({ timeout: 30000 });
-      console.log('📤 Export button (mobile) clicked');
+      console.log('?? Export button (mobile) clicked');
     }
   }
 
@@ -225,7 +225,7 @@ export class WarehouseTrackingPage {
   async clickSecondaryTableExpand(): Promise<void> {
     if (await this.secondarytableexpandButton.isVisible({ timeout: 30000 }).catch(() => false)) {
       await this.secondarytableexpandButton.click({ timeout: 30000 });
-      console.log('🔍 Secondary Table Expand button clicked');
+      console.log('?? Secondary Table Expand button clicked');
     }
   }
 
@@ -233,26 +233,26 @@ export class WarehouseTrackingPage {
   async clickShowDetails(): Promise<void> {
     await expect(this.showDetailsButton).toBeVisible({ timeout: 30000 });
     await this.showDetailsButton.click({ timeout: 30000 });
-    console.log('📋 Show Details button clicked');
+    console.log('?? Show Details button clicked');
   }
 
   async clickHideDetails(): Promise<void> {
     await expect(this.hideDetailsButton).toBeVisible({ timeout: 30000 });
     await this.hideDetailsButton.click({ timeout: 30000 });
-    console.log('📋 Hide Details button clicked');
+    console.log('?? Hide Details button clicked');
   }
 
   // Show / Hide Dates
   async clickShowDates(): Promise<void> {
     await expect(this.showDatesButton).toBeVisible({ timeout: 30000 });
     await this.showDatesButton.click({ timeout: 30000 });
-    console.log('📅 Show Dates button clicked');
+    console.log('?? Show Dates button clicked');
   }
 
   async clickHideDates(): Promise<void> {
     await expect(this.hideDatesButton).toBeVisible({ timeout: 30000 });
     await this.hideDatesButton.click({ timeout: 30000 });
-    console.log('📅 Hide Dates button clicked');
+    console.log('?? Hide Dates button clicked');
   }
 
   // Dropdown Selections
@@ -340,12 +340,12 @@ export class WarehouseTrackingPage {
     // Navigate to start date month if needed and click it
     await this.navigateToDate(startDate);
     await this.page.locator(`[data-test-id="dp-${startDate}"]`).click({ timeout: 30000 });
-    console.log(`📅 Start date selected: ${startDate}`);
+    console.log(`?? Start date selected: ${startDate}`);
 
     // Navigate to end date month if needed and click it
     await this.navigateToDate(endDate);
     await this.page.locator(`[data-test-id="dp-${endDate}"]`).click({ timeout: 30000 });
-    console.log(`📅 End date selected: ${endDate}`);
+    console.log(`?? End date selected: ${endDate}`);
   }
 
   private async navigateToDate(targetDate: string): Promise<void> {
@@ -383,7 +383,7 @@ export class WarehouseTrackingPage {
   async clearDateRange(): Promise<void> {
     if (await this.dateRangeClearButton.isVisible({ timeout: 30000 }).catch(() => false)) {
       await this.dateRangeClearButton.click({ timeout: 30000 });
-      console.log('🗑️ Date range cleared');
+      console.log('??? Date range cleared');
     }
   }
 
@@ -399,10 +399,10 @@ export class WarehouseTrackingPage {
       if (!cleanActual) continue;
       const isMatch = expectedLoanPurposes.some(expected => expected.trim().toLowerCase() === cleanActual.toLowerCase());
       if (!isMatch) {
-        console.log('❌ Unexpected Loan Purpose found:', cleanActual);
+        console.log('? Unexpected Loan Purpose found:', cleanActual);
         throw new Error(`Unexpected Loan Purpose in table: ${cleanActual}`);
       }
-      console.log('✅ Valid Loan Purpose:', cleanActual);
+      console.log('? Valid Loan Purpose:', cleanActual);
     }
   }
 
@@ -417,10 +417,10 @@ export class WarehouseTrackingPage {
       if (!cleanActual) continue;
       const isMatch = expectedLoanTypes.some(expected => expected.trim().toLowerCase() === cleanActual.toLowerCase());
       if (!isMatch) {
-        console.log('❌ Unexpected Loan Type found:', cleanActual);
+        console.log('? Unexpected Loan Type found:', cleanActual);
         throw new Error(`Unexpected Loan Type in table: ${cleanActual}`);
       }
-      console.log('✅ Valid Loan Type:', cleanActual);
+      console.log('? Valid Loan Type:', cleanActual);
     }
   }
 
@@ -429,16 +429,21 @@ export class WarehouseTrackingPage {
     if (await this.secondarytableexpandButton.isVisible({ timeout: 30000 }).catch(() => false)) {
       await this.secondarytableexpandButton.click({ force: true });
     }
-    const allBorrowerNames = await this.borrowerNameCells.allTextContents();
+    const allBorrowerNames = await this.secondaryTable
+      .locator('tbody > tr > td[data-key="borrowerName"]:visible')
+      .evaluateAll((cells) =>
+        cells
+          .map((cell) => (cell.textContent ?? '').trim())
+          .filter((text) => text.length > 0)
+      );
     for (const borrowerName of allBorrowerNames) {
       const cleanActual = borrowerName.trim();
-      if (!cleanActual) continue;
       const isMatch = expectedBorrowerNames.some(expected => expected.trim().toLowerCase() === cleanActual.toLowerCase());
       if (!isMatch) {
-        console.log('❌ Unexpected Borrower Name found:', cleanActual);
+        console.log('Unexpected Borrower Name found:', cleanActual);
         throw new Error(`Unexpected Borrower Name in table: ${cleanActual}`);
       }
-      console.log('✅ Valid Borrower Name:', cleanActual);
+      console.log('Valid Borrower Name:', cleanActual);
     }
   }
 
@@ -447,18 +452,24 @@ export class WarehouseTrackingPage {
     if (await this.secondarytableexpandButton.isVisible({ timeout: 30000 }).catch(() => false)) {
       await this.secondarytableexpandButton.click({ force: true });
     }
-    const allLoanNumbers = await this.loanNumberCells.allTextContents();
+    const allLoanNumbers = await this.secondaryTable
+      .locator('tbody > tr > td[data-key="loanNumber"]:visible')
+      .evaluateAll((cells) =>
+        cells
+          .map((cell) => (cell.textContent ?? '').trim())
+          .filter((text) => text.length > 0 && text.toLowerCase() !== 'total')
+      );
     for (const loanNumber of allLoanNumbers) {
       const cleanActual = loanNumber.trim();
-      if (!cleanActual) continue;
       const isMatch = expectedLoanNumbers.some(expected => expected.trim() === cleanActual);
       if (!isMatch) {
-        console.log('❌ Unexpected Loan Number found:', cleanActual);
+        console.log('Unexpected Loan Number found:', cleanActual);
         throw new Error(`Unexpected Loan Number in table: ${cleanActual}`);
       }
-      console.log('✅ Valid Loan Number:', cleanActual);
+      console.log('Valid Loan Number:', cleanActual);
     }
   }
+
 
    // extra added 
 
@@ -466,10 +477,10 @@ export class WarehouseTrackingPage {
   try {
     await this.openFilterButton.waitFor({ state: 'visible', timeout: 3000 });
     await this.openFilterButton.click();
-    console.log('🔽 Filter button clicked');
+    console.log('?? Filter button clicked');
   } catch {
-    // Not visible — desktop or iPad in desktop mode — skip
-    console.log('ℹ️ Filter button not visible — skipping');
+    // Not visible � desktop or iPad in desktop mode � skip
+    console.log('?? Filter button not visible � skipping');
   }
 }
 }
