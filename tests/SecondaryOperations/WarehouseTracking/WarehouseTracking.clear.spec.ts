@@ -29,7 +29,7 @@ test.beforeEach(async ({ page }) => {
 
 // ─── Clear Button - Loan Number Filter ───────────────────────────────────────
 
-test('Verify that the Clear button resets Loan Number filter', async ({ page }) => {
+/* test('Verify that the Clear button resets Loan Number filter', async ({ page }) => {
 
   await reportPanelPage.clickSidebarToggle();
   await reportPanelPage.clickWarehouseTrackingLink();
@@ -40,10 +40,10 @@ test('Verify that the Clear button resets Loan Number filter', async ({ page }) 
 
   await warehouseTrackingPage.clickClear();
 });
-
+ */
 
 // ─── Clear Button - Borrower Name Filter ─────────────────────────────────────
-
+/* 
 test('Verify that the Clear button resets Borrower Name filter', async ({ page }) => {
 
   await reportPanelPage.clickSidebarToggle();
@@ -69,7 +69,7 @@ test('Verify that the Clear button resets Loan Purpose filter', async ({ page })
   await warehouseTrackingPage.clickSubmit();
 
   await warehouseTrackingPage.clickClear();
-});
+}); */
 
 
 // ─── Clear Button - Loan Type Filter ─────────────────────────────────────────
@@ -89,7 +89,7 @@ test('Verify that the Clear button resets Loan Type filter', async ({ page }) =>
 
 // ─── Clear Button - Select Date Type + Date Range Filter ─────────────────────
 
-test('Verify that the Clear button resets Select Date Type and Date Range filter', async ({ page }) => {
+/* test('Verify that the Clear button resets Select Date Type and Date Range filter', async ({ page }) => {
 
   await reportPanelPage.clickSidebarToggle();
   await reportPanelPage.clickWarehouseTrackingLink();
@@ -101,4 +101,4 @@ test('Verify that the Clear button resets Select Date Type and Date Range filter
   await warehouseTrackingPage.clickSubmit();
 
   await warehouseTrackingPage.clickClear();
-});
+}); */

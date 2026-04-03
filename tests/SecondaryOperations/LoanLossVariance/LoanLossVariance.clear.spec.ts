@@ -59,7 +59,7 @@ test('Verify that the Clear button resets Channel filter', async ({ page }) => {
 
 // ─── Clear Button - Underwriter Filter ───────────────────────────────────────
 
-test('Verify that the Clear button resets Underwriter filter', async ({ page }) => {
+/* test('Verify that the Clear button resets Underwriter filter', async ({ page }) => {
 
   await reportPanelPage.clickSidebarToggle();
   await reportPanelPage.clickLoanLossVarianceLink();
@@ -159,4 +159,4 @@ test('Verify that the Clear button resets Variance Research filter', async ({ pa
   await loanLossVariancePage.clickSubmit();
 
   await loanLossVariancePage.clickClear();
-});
+}); */

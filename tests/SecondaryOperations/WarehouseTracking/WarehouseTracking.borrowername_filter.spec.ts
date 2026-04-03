@@ -7,8 +7,8 @@ import { handleContinueLogin } from "@utils/sessionGuard";
 const config = new TestConfig();
 
 const borrowerNameSets = [
-  ['Alan Ronson'],
-  ['Belinda Mondui', 'Alan Ronson'],
+  ['Adam Wendt'],
+  ['Andrew Rath', 'Adam Wendt'],
 ];
 
 borrowerNameSets.forEach((borrowerNameSet) => {

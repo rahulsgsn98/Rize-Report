@@ -85,7 +85,7 @@ readonly UploadBranchPandLLink :Locator
 
    this.LoanLossVarianceLink = page.getByRole('link', { name: /Loan Loss Variance/i })
 
-   this.WarehouseTrackingLink = page.getByRole('link', { name: 'Warehouse Utilization' })
+   this.WarehouseTrackingLink = page.getByRole('link', { name: /Warehouse Utilization/i })
 
 
 
