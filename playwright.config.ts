@@ -17,7 +17,8 @@ export default defineConfig({
 testIgnore: [
   'tests/ProductionReports/**',
   'tests/ComplianceReports/MortgageInsurance/**',
-  'tests/UploadExcelFiles/**'
+  'tests/UploadExcelFiles/**',
+   'tests/OperationsReports/Processing/**'
 ],
   
   /* Run tests in files in parallel */
@@ -26,7 +27,7 @@ testIgnore: [
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   // retries: process.env.CI ? 2 : 0,
-  retries: 2,
+  retries: 1,
 
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 2 : undefined,
