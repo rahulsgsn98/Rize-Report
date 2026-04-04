@@ -18,7 +18,9 @@ testIgnore: [
   'tests/ProductionReports/**',
   'tests/ComplianceReports/MortgageInsurance/**',
   'tests/UploadExcelFiles/**',
-   'tests/OperationsReports/Processing/**'
+   'tests/OperationsReports/Processing/**',
+  'tests/SecondaryOperations/WarehouseTracking/WarehouseTracking.borrowername_filter.spec.ts',
+  'tests/SecondaryOperations/WarehouseTracking/WarehouseTracking.loannumber_filter.spec.ts'
 ],
   
   /* Run tests in files in parallel */

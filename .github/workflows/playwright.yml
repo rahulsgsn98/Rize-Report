@@ -81,7 +81,7 @@ jobs:
         run: npx playwright install webkit
 
       - name: Run Playwright tests
-        run: npx playwright test --project="${{ matrix.project }}" --shard=${{ matrix.shard }}
+        run: npx playwright test --workers=1 --project="${{ matrix.project }}" --shard=${{ matrix.shard }}
 
       - name: Upload blob report
         if: always()
