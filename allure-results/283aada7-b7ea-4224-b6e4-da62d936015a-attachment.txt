@@ -1,3 +1,0 @@
-Continue Login detected → clicking
-Delegated Expand button is visible
-🔍 Delegated Expand button clicked

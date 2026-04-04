@@ -1,3 +1,0 @@
-Continue Login not present
-Compliance Report Expand button is visible
-🔍 Compliance Report Expand button clicked

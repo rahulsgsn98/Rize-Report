@@ -1,4 +1,0 @@
-Continue Login not present
-?? Secondary Table Expand button clicked
-Secondary Table Collapse button is visible
-Secondary Table Collapse button is not visible after collapsing

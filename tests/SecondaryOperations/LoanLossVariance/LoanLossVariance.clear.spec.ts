@@ -49,7 +49,7 @@ test('Verify that the Clear button resets Channel filter', async ({ page }) => {
   await reportPanelPage.clickSidebarToggle();
   await reportPanelPage.clickLoanLossVarianceLink();
 
-  await loanLossVariancePage.channelSelection(['Delegated']); // replace with valid data
+  await loanLossVariancePage.channelSelection(['Brokered']); // replace with valid data
 
   await loanLossVariancePage.clickSubmit();
 

@@ -1,3 +1,0 @@
-Continue Login not present
-ℹ️ Filter button not visible — skipping
-Clear button clicked, filters reset

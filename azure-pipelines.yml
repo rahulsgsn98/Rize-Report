@@ -1,0 +1,542 @@
+trigger:
+- master
+
+pr:
+- master
+
+variables:
+  nodeVersion: '20.18.3'
+
+stages:
+- stage: PlaywrightTests
+  displayName: Playwright Tests
+  jobs:
+  - job: Edge_1_of_6
+    displayName: Microsoft Edge 1/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Microsoft Edge" --shard=1/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-microsoft-edge-1-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-microsoft-edge-1-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Edge_2_of_6
+    displayName: Microsoft Edge 2/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Microsoft Edge" --shard=2/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-microsoft-edge-2-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-microsoft-edge-2-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Edge_3_of_6
+    displayName: Microsoft Edge 3/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Microsoft Edge" --shard=3/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-microsoft-edge-3-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-microsoft-edge-3-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Edge_4_of_6
+    displayName: Microsoft Edge 4/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Microsoft Edge" --shard=4/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-microsoft-edge-4-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-microsoft-edge-4-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Edge_5_of_6
+    displayName: Microsoft Edge 5/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Microsoft Edge" --shard=5/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-microsoft-edge-5-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-microsoft-edge-5-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Edge_6_of_6
+    displayName: Microsoft Edge 6/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Microsoft Edge" --shard=6/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-microsoft-edge-6-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-microsoft-edge-6-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Safari_1_of_6
+    displayName: Mobile Safari 1/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Mobile Safari" --shard=1/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-mobile-safari-1-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-mobile-safari-1-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Safari_2_of_6
+    displayName: Mobile Safari 2/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Mobile Safari" --shard=2/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-mobile-safari-2-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-mobile-safari-2-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Safari_3_of_6
+    displayName: Mobile Safari 3/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Mobile Safari" --shard=3/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-mobile-safari-3-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-mobile-safari-3-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Safari_4_of_6
+    displayName: Mobile Safari 4/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Mobile Safari" --shard=4/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-mobile-safari-4-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-mobile-safari-4-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Safari_5_of_6
+    displayName: Mobile Safari 5/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Mobile Safari" --shard=5/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-mobile-safari-5-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-mobile-safari-5-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: Safari_6_of_6
+    displayName: Mobile Safari 6/6
+    pool:
+      vmImage: 'windows-latest'
+    timeoutInMinutes: 60
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - powershell: |
+        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
+        if (-not (Test-Path $edgePath)) {
+          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+        }
+        if (-not (Test-Path $edgePath)) {
+          throw "Microsoft Edge browser is not available on this agent."
+        }
+        Write-Host "Microsoft Edge found at $edgePath"
+      displayName: Verify Microsoft Edge availability
+    - script: npx playwright install webkit
+      displayName: Install CI browsers
+    - script: npx playwright test --project="Mobile Safari" --shard=6/6
+      displayName: Run Playwright tests
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'blob-report'
+        artifact: 'blob-report-mobile-safari-6-of-6'
+      condition: always()
+      displayName: Upload blob report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results'
+        artifact: 'allure-results-mobile-safari-6-of-6'
+      condition: always()
+      displayName: Upload Allure results
+
+  - job: MergeReports
+    displayName: Merge Reports
+    dependsOn:
+    - Edge_1_of_6
+    - Edge_2_of_6
+    - Edge_3_of_6
+    - Edge_4_of_6
+    - Edge_5_of_6
+    - Edge_6_of_6
+    - Safari_1_of_6
+    - Safari_2_of_6
+    - Safari_3_of_6
+    - Safari_4_of_6
+    - Safari_5_of_6
+    - Safari_6_of_6
+    condition: always()
+    pool:
+      vmImage: 'windows-latest'
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '$(nodeVersion)'
+      displayName: Install Node.js
+    - script: npm ci
+      displayName: Install dependencies
+    - task: DownloadPipelineArtifact@2
+      inputs:
+        buildType: 'current'
+        targetPath: 'blob-report-download'
+      displayName: Download blob reports
+    - powershell: |
+        New-Item -ItemType Directory -Force -Path blob-report-merged | Out-Null
+        Get-ChildItem -Path blob-report-download -Recurse -File | ForEach-Object {
+          Copy-Item -Path $_.FullName -Destination (Join-Path 'blob-report-merged' $_.Name) -Force
+        }
+      displayName: Flatten blob reports
+    - task: DownloadPipelineArtifact@2
+      inputs:
+        buildType: 'current'
+        targetPath: 'allure-results-download'
+      displayName: Download Allure results
+    - powershell: |
+        New-Item -ItemType Directory -Force -Path allure-results-merged | Out-Null
+        Get-ChildItem -Path allure-results-download -Recurse -File | ForEach-Object {
+          Copy-Item -Path $_.FullName -Destination (Join-Path 'allure-results-merged' $_.Name) -Force
+        }
+      displayName: Flatten Allure results
+    - script: npx playwright merge-reports --reporter html ./blob-report-merged
+      displayName: Merge Playwright reports
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'playwright-report'
+        artifact: 'playwright-report'
+      displayName: Upload final HTML report
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'allure-results-merged'
+        artifact: 'allure-results'
+      displayName: Upload Allure results artifact
+
+

@@ -1,4 +1,4 @@
-import { fa } from '@faker-js/faker/.';
+
 import { expect, Locator, Page } from '@playwright/test';
 
 export class LoanLossVariancePage {
