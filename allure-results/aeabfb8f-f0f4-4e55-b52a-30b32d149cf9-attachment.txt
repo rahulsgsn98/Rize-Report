@@ -1,0 +1,4 @@
+Continue Login not present
+🔍 Compliance Report Expand button clicked
+Compliance Report Collapse button is visible
+Compliance Report Collapse button is not visible after collapsing

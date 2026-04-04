@@ -1,0 +1,3 @@
+Continue Login not present
+Secondary Table Expand button is visible
+?? Secondary Table Expand button clicked

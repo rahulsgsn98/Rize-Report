@@ -1,0 +1,2 @@
+Continue Login detected → clicking
+Details table displays true

@@ -1,0 +1,3 @@
+Continue Login detected → clicking
+🔽 Filter button clicked
+Clear button clicked, filters reset
