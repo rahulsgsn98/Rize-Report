@@ -33,7 +33,7 @@ stages:
         }
         Write-Host "Microsoft Edge found at $edgePath"
       displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Microsoft Edge" --shard=1/6
       displayName: Run Playwright tests
@@ -72,7 +72,7 @@ stages:
         }
         Write-Host "Microsoft Edge found at $edgePath"
       displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Microsoft Edge" --shard=2/6
       displayName: Run Playwright tests
@@ -111,7 +111,7 @@ stages:
         }
         Write-Host "Microsoft Edge found at $edgePath"
       displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Microsoft Edge" --shard=3/6
       displayName: Run Playwright tests
@@ -150,7 +150,7 @@ stages:
         }
         Write-Host "Microsoft Edge found at $edgePath"
       displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Microsoft Edge" --shard=4/6
       displayName: Run Playwright tests
@@ -189,7 +189,7 @@ stages:
         }
         Write-Host "Microsoft Edge found at $edgePath"
       displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Microsoft Edge" --shard=5/6
       displayName: Run Playwright tests
@@ -228,7 +228,7 @@ stages:
         }
         Write-Host "Microsoft Edge found at $edgePath"
       displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Microsoft Edge" --shard=6/6
       displayName: Run Playwright tests
@@ -257,17 +257,7 @@ stages:
       displayName: Install Node.js
     - script: npm ci
       displayName: Install dependencies
-    - powershell: |
-        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
-        if (-not (Test-Path $edgePath)) {
-          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
-        }
-        if (-not (Test-Path $edgePath)) {
-          throw "Microsoft Edge browser is not available on this agent."
-        }
-        Write-Host "Microsoft Edge found at $edgePath"
-      displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Mobile Safari" --shard=1/6
       displayName: Run Playwright tests
@@ -296,17 +286,7 @@ stages:
       displayName: Install Node.js
     - script: npm ci
       displayName: Install dependencies
-    - powershell: |
-        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
-        if (-not (Test-Path $edgePath)) {
-          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
-        }
-        if (-not (Test-Path $edgePath)) {
-          throw "Microsoft Edge browser is not available on this agent."
-        }
-        Write-Host "Microsoft Edge found at $edgePath"
-      displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Mobile Safari" --shard=2/6
       displayName: Run Playwright tests
@@ -335,17 +315,7 @@ stages:
       displayName: Install Node.js
     - script: npm ci
       displayName: Install dependencies
-    - powershell: |
-        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
-        if (-not (Test-Path $edgePath)) {
-          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
-        }
-        if (-not (Test-Path $edgePath)) {
-          throw "Microsoft Edge browser is not available on this agent."
-        }
-        Write-Host "Microsoft Edge found at $edgePath"
-      displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Mobile Safari" --shard=3/6
       displayName: Run Playwright tests
@@ -374,17 +344,7 @@ stages:
       displayName: Install Node.js
     - script: npm ci
       displayName: Install dependencies
-    - powershell: |
-        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
-        if (-not (Test-Path $edgePath)) {
-          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
-        }
-        if (-not (Test-Path $edgePath)) {
-          throw "Microsoft Edge browser is not available on this agent."
-        }
-        Write-Host "Microsoft Edge found at $edgePath"
-      displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Mobile Safari" --shard=4/6
       displayName: Run Playwright tests
@@ -413,17 +373,7 @@ stages:
       displayName: Install Node.js
     - script: npm ci
       displayName: Install dependencies
-    - powershell: |
-        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
-        if (-not (Test-Path $edgePath)) {
-          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
-        }
-        if (-not (Test-Path $edgePath)) {
-          throw "Microsoft Edge browser is not available on this agent."
-        }
-        Write-Host "Microsoft Edge found at $edgePath"
-      displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Mobile Safari" --shard=5/6
       displayName: Run Playwright tests
@@ -452,17 +402,7 @@ stages:
       displayName: Install Node.js
     - script: npm ci
       displayName: Install dependencies
-    - powershell: |
-        $edgePath = "$env:ProgramFiles(x86)\Microsoft\Edge\Application\msedge.exe"
-        if (-not (Test-Path $edgePath)) {
-          $edgePath = "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
-        }
-        if (-not (Test-Path $edgePath)) {
-          throw "Microsoft Edge browser is not available on this agent."
-        }
-        Write-Host "Microsoft Edge found at $edgePath"
-      displayName: Verify Microsoft Edge availability
-    - script: npx playwright install webkit
+    - script: npx playwright install --with-deps
       displayName: Install CI browsers
     - script: npx playwright test --project="Mobile Safari" --shard=6/6
       displayName: Run Playwright tests
@@ -507,6 +447,7 @@ stages:
     - task: DownloadPipelineArtifact@2
       inputs:
         buildType: 'current'
+        itemPattern: 'blob-report-*'
         targetPath: 'blob-report-download'
       displayName: Download blob reports
     - powershell: |
@@ -518,6 +459,7 @@ stages:
     - task: DownloadPipelineArtifact@2
       inputs:
         buildType: 'current'
+        itemPattern: 'allure-results-*'
         targetPath: 'allure-results-download'
       displayName: Download Allure results
     - powershell: |
@@ -538,5 +480,6 @@ stages:
         targetPath: 'allure-results-merged'
         artifact: 'allure-results'
       displayName: Upload Allure results artifact
+
 
 
